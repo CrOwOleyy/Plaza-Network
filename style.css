@@ -45,6 +45,16 @@
             color: var(--primary-color);
             text-shadow: 0 0 5px rgba(0, 194, 255, 0.5);
         }
+
+        a:link, a:visited {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        a:hover, a:focus {
+            color: inherit;
+        }
+        
         
         nav ul {
             display: flex;
@@ -129,6 +139,13 @@
             gap: 1.5rem;
         }
         
+                .card-image img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: 5px 0px;
+                }
+
         .card {
             background-color: var(--panel-color);
             border-radius: 5px;
@@ -345,7 +362,7 @@
             background-color: rgba(68, 68, 102, 0.1);
         }
         
-        .faction-logo {
+        .faction-logo img {
             width: 100px;
             height: 100px;
             background-color: var(--panel-color);
@@ -358,6 +375,10 @@
             color: var(--primary-color);
             font-weight: bold;
             font-size: 1.2rem;
+            object-fit: cover;
+            border-radius: 50%;
+            object-position: 0px -20px;
+            background-color: black;
         }
         
         .faction-item {
