@@ -131,6 +131,7 @@
             border-bottom: 1px solid var(--accent-color);
             padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
+            text-align: center;
         }
         
         .card-grid {
@@ -188,11 +189,11 @@
             color: var(--primary-color);
             text-decoration: none;
             font-weight: 500;
-            transition: color 0.3s;
+            transition: color 0.5s;
         }
         
         .card-link:hover {
-            color: var(--secondary-color);
+            color: var(--primary-color);
         }
         
         .article {
