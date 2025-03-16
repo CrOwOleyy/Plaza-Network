@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/Neocron_fr.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="map.js"></script>
+    <title>Plaza Network - Carte Interactive</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo"><a href="index.html">Plaza Network</a></div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="factions.html">Factions</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="zones.html">Zones</a></li>
+                        <li><a href="items.html">Équipement</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="music.html">Musiques</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <h1>Carte Interactive de Neocron</h1>
+            <p>Explorez les différentes zones du monde cyberpunk de Neocron. Cliquez sur une cellule pour découvrir des informations détaillées.</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="breadcrumb">
+            <span><a href="index.html">Accueil</a></span>
+            <span>Carte Interactive</span>
+        </div>
+        
+        <section class="section">
+            <h2 class="section-title">Naviguer dans Neocron</h2>
+            
+            <div class="map-filters">
+                <div class="map-filter active" data-filter="all">Toutes les zones</div>
+                <div class="map-filter" data-filter="city">Zones urbaines</div>
+                <div class="map-filter" data-filter="outzone">Outzones</div>
+                <div class="map-filter" data-filter="wasteland">Terres désolées</div>
+                <div class="map-filter" data-filter="special">Zones spéciales</div>
+            </div>
+            
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color city-color"></div>
+                    <span>Zones urbaines</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color outzone-color"></div>
+                    <span>Outzones</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color wasteland-color"></div>
+                    <span>Terres désolées</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color special-color"></div>
+                    <span>Zones spéciales</span>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <div class="interactive-map" id="neocronMap">
+                    <!-- Les cellules de la carte seront générées en JavaScript -->
+                </div>
+            </div>
+            
+            <div class="zone-info" id="zoneInfo">
+                <div class="close-zone-info" id="closeZoneInfo">X</div>
+                <div class="zone-header">
+                    <div class="zone-image" id="zoneImage"></div>
+                    <div class="zone-details">
+                        <h3 id="zoneTitle">Nom de la zone</h3>
+                        <div class="zone-tags" id="zoneTags">
+                            <!-- Tags générés dynamiquement -->
+                        </div>
+                        <p id="zoneDescription">Description de la zone...</p>
+                    </div>
+                </div>
+                <div class="zone-content">
+                    <h4>Informations</h4>
+                    <p id="zoneInfo1">Informations détaillées sur la zone...</p>
+                    
+                    <h4>Points d'intérêt</h4>
+                    <p id="zoneInfo2">Points d'intérêt notables dans cette zone...</p>
+                    
+                    <div class="zone-stats" id="zoneStats">
+                        <!-- Stats générées dynamiquement -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>Plaza Network - Base de données non-officielle sur Neocron</p>
+            <p>Créé par un joueur pour des joueurs.</p>
+            <p>Neocron est une marque déposée de ses propriétaires respectifs.</p>
+        </div>
+    </footer>
+</body>
+</html>
