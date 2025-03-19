@@ -3,8 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const zoneInfo = document.getElementById('zoneInfo');
     const closeZoneInfo = document.getElementById('closeZoneInfo');
     const filters = document.querySelectorAll('.map-filter');
-    
-    // Données des zones (à compléter avec vos 204 zones)
+
     const zones = [
         {
             id: 1,

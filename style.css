@@ -533,6 +533,138 @@
             font-weight: bold;
         }
 
+        .mission-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--accent-color);
+        }
+        
+        .mission-info-box {
+            background-color: rgba(255, 123, 0, 0.1);
+            border: 1px solid var(--primary-color);
+            border-radius: 5px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .objective-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .objective-list li {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+        
+        .objective-list li:before {
+            content: '■';
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        .reward-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .reward-icon {
+            width: 40px;
+            height: 40px;
+            background-color: var(--panel-color);
+            border: 1px solid var(--accent-color);
+            margin-right: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-color);
+        }
+        
+        .npc-card {
+            display: flex;
+            background-color: var(--panel-color);
+            border: 1px solid var(--accent-color);
+            border-radius: 5px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .npc-image {
+            width: 80px;
+            height: 80px;
+            background-color: #232338;
+            border-radius: 50%;
+            margin-right: 1rem;
+            overflow: hidden;
+        }
+        
+        .npc-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .npc-info {
+            flex-grow: 1;
+        }
+        
+        .npc-name {
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+        
+        .dialogue-box {
+            background-color: rgba(18, 18, 31, 0.7);
+            border-left: 3px solid var(--primary-color);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+        }
+        
+        .mission-map {
+            width: 100%;
+            height: 300px;
+            background-color: var(--panel-color);
+            border: 1px solid var(--accent-color);
+            border-radius: 5px;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .mission-map img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        
+        .difficulty-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .difficulty-stars {
+            display: flex;
+            margin-left: 1rem;
+        }
+        
+        .star {
+            color: var(--primary-color);
+            margin-right: 0.25rem;
+        }
+
 
 
 
@@ -549,232 +681,232 @@
 
 
 
-        .interactive-map {
-            display: grid;
-            grid-template-columns: repeat(14, 1fr); /* 14x14 = 196 cellules (proche de 204) */
-            gap: 1px;
-            width: 100%;
-            aspect-ratio: 1/1;
-            max-width: 1000px;
-            margin: 0 auto;
-            background-image: url('assets/map-background.jpg'); /* Image de fond de la carte */
-            background-size: cover;
-            background-position: center;
-            position: relative;
-            border: 2px solid var(--accent-color);
-            border-radius: 5px;
-            overflow: hidden;
-        }
-        
-        .map-cell {
-            position: relative;
-            background-color: rgba(10, 10, 18, 0.1); /* Semi-transparent */
-            border: 1px solid rgba(68, 68, 102, 0.3);
-            cursor: pointer;
-            transition: all 0.3s;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .map-cell:hover {
-            background-color: rgba(255, 123, 0, 0.3);
-            border-color: var(--primary-color);
-            transform: scale(1.05);
-            z-index: 10;
-        }
-        
-        .map-cell.active {
-            background-color: rgba(255, 123, 0, 0.4);
-            border-color: var(--primary-color);
-            box-shadow: 0 0 15px rgba(255, 123, 0, 0.5);
-        }
-        
-        .map-cell-name {
-            position: absolute;
-            bottom: 5px;
-            left: 5px;
-            font-size: 0.6rem;
-            color: var(--text-color);
-            text-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
-            font-weight: bold;
-        }
-        
-        .zone-info {
-            background-color: var(--panel-color);
-            border: 1px solid var(--accent-color);
-            border-radius: 5px;
-            padding: 1.5rem;
-            margin-top: 2rem;
-            display: none;
-            position: relative;
-        }
-        
-        .zone-info.active {
-            display: block;
-            animation: fadeIn 0.5s ease-in-out;
-        }
-        
-        .close-zone-info {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background-color: var(--panel-color);
-            border: 1px solid var(--accent-color);
-            color: var(--primary-color);
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            font-weight: bold;
-            transition: all 0.3s;
-        }
-        
-        .close-zone-info:hover {
-            background-color: var(--primary-color);
-            color: var(--panel-color);
-        }
-        
-        .zone-header {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 1.5rem;
-        }
-        
-        .zone-image {
-            width: 150px;
-            height: 150px;
-            background-color: #232338;
-            border: 1px solid var(--accent-color);
-            margin-right: 1.5rem;
-            flex-shrink: 0;
-            background-size: cover;
-            background-position: center;
-        }
-        
-        .zone-details h3 {
-            color: var(--primary-color);
-            margin-top: 0;
-            margin-bottom: 0.5rem;
-            font-size: 1.5rem;
-            text-shadow: 0 0 5px rgba(0, 194, 255, 0.3);
-        }
-        
-        .zone-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        .zone-tag {
-            background-color: rgba(255, 123, 0, 0.2);
-            color: var(--primary-color);
-            padding: 0.3rem 0.8rem;
-            border-radius: 3px;
-            font-size: 0.8rem;
-            border: 1px solid var(--primary-color);
-        }
-        
-        .zone-content h4 {
-            color: var(--primary-color);
-            margin-top: 1.5rem;
-            margin-bottom: 0.8rem;
-            border-bottom: 1px solid var(--accent-color);
-            padding-bottom: 0.3rem;
-        }
-        
-        .zone-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 1rem;
-            margin-top: 1.5rem;
-        }
-        
-        .zone-stat {
-            background-color: rgba(18, 18, 31, 0.7);
-            padding: 0.8rem;
-            border-radius: 3px;
-            border: 1px solid var(--accent-color);
-        }
-        
-        .zone-stat-title {
-            color: var(--primary-color);
-            font-size: 0.9rem;
-            margin-bottom: 0.3rem;
-        }
-        
-        .map-filters {
-            margin-bottom: 1.5rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-        
-        .map-filter {
-            background-color: var(--panel-color);
-            border: 1px solid var(--accent-color);
-            padding: 0.5rem 1rem;
-            cursor: pointer;
-            transition: all 0.3s;
-            border-radius: 3px;
-        }
-        
-        .map-filter:hover {
-            border-color: var(--primary-color);
-        }
-        
-        .map-filter.active {
-            background-color: var(--primary-color);
-            color: var(--panel-color);
-        }
-        
-        /* Types de zones avec couleurs différentes */
-        .map-cell.city {
-            border-color: var(--primary-color);
-            background-color: rgba(255, 123, 0, 0.2);
-        }
-        
-        .map-cell.outzone {
-            border-color: var(--secondary-color);
-            background-color: rgba(81, 255, 0, 0.2);
-        }
-        
-        .map-cell.wasteland {
-            border-color: #ff0000;
-            background-color: rgba(255, 0, 0, 0.1);
-        }
-        
-        .map-cell.special {
-            border-color: #00c2ff;
-            background-color: rgba(0, 194, 255, 0.1);
-        }
-        
-        .legend {
-            margin-top: 1rem;
-            margin-bottom: 2rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-        
-        .legend-item {
-            display: flex;
-            align-items: center;
-            margin-right: 1rem;
-        }
-        
-        .legend-color {
-            width: 20px;
-            height: 20px;
-            margin-right: 0.5rem;
-            border: 1px solid var(--accent-color);
-        }
-        
-        .city-color { background-color: rgba(255, 123, 0, 0.4); border-color: var(--primary-color); }
-        .outzone-color { background-color: rgba(81, 255, 0, 0.4); border-color: var(--secondary-color); }
-        .wasteland-color { background-color: rgba(255, 0, 0, 0.2); border-color: #ff0000; }
-        .special-color { background-color: rgba(0, 194, 255, 0.3); border-color: #00c2ff; }
+                .interactive-map {
+                    display: grid;
+                    grid-template-columns: repeat(14, 1fr); /* 14x14 = 196 cellules (proche de 204) */
+                    gap: 1px;
+                    width: 100%;
+                    aspect-ratio: 1/1;
+                    max-width: 1000px;
+                    margin: 0 auto;
+                    background-image: url('assets/map-background.jpg'); /* Image de fond de la carte */
+                    background-size: cover;
+                    background-position: center;
+                    position: relative;
+                    border: 2px solid var(--accent-color);
+                    border-radius: 5px;
+                    overflow: hidden;
+                }
+                
+                .map-cell {
+                    position: relative;
+                    background-color: rgba(10, 10, 18, 0.1); /* Semi-transparent */
+                    border: 1px solid rgba(68, 68, 102, 0.3);
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .map-cell:hover {
+                    background-color: rgba(255, 123, 0, 0.3);
+                    border-color: var(--primary-color);
+                    transform: scale(1.05);
+                    z-index: 10;
+                }
+                
+                .map-cell.active {
+                    background-color: rgba(255, 123, 0, 0.4);
+                    border-color: var(--primary-color);
+                    box-shadow: 0 0 15px rgba(255, 123, 0, 0.5);
+                }
+                
+                .map-cell-name {
+                    position: absolute;
+                    bottom: 5px;
+                    left: 5px;
+                    font-size: 0.6rem;
+                    color: var(--text-color);
+                    text-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+                    font-weight: bold;
+                }
+                
+                .zone-info {
+                    background-color: var(--panel-color);
+                    border: 1px solid var(--accent-color);
+                    border-radius: 5px;
+                    padding: 1.5rem;
+                    margin-top: 2rem;
+                    display: none;
+                    position: relative;
+                }
+                
+                .zone-info.active {
+                    display: block;
+                    animation: fadeIn 0.5s ease-in-out;
+                }
+                
+                .close-zone-info {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    background-color: var(--panel-color);
+                    border: 1px solid var(--accent-color);
+                    color: var(--primary-color);
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    font-weight: bold;
+                    transition: all 0.3s;
+                }
+                
+                .close-zone-info:hover {
+                    background-color: var(--primary-color);
+                    color: var(--panel-color);
+                }
+                
+                .zone-header {
+                    display: flex;
+                    align-items: flex-start;
+                    margin-bottom: 1.5rem;
+                }
+                
+                .zone-image {
+                    width: 150px;
+                    height: 150px;
+                    background-color: #232338;
+                    border: 1px solid var(--accent-color);
+                    margin-right: 1.5rem;
+                    flex-shrink: 0;
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .zone-details h3 {
+                    color: var(--primary-color);
+                    margin-top: 0;
+                    margin-bottom: 0.5rem;
+                    font-size: 1.5rem;
+                    text-shadow: 0 0 5px rgba(0, 194, 255, 0.3);
+                }
+                
+                .zone-tags {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 0.5rem;
+                    margin-bottom: 1rem;
+                }
+                
+                .zone-tag {
+                    background-color: rgba(255, 123, 0, 0.2);
+                    color: var(--primary-color);
+                    padding: 0.3rem 0.8rem;
+                    border-radius: 3px;
+                    font-size: 0.8rem;
+                    border: 1px solid var(--primary-color);
+                }
+                
+                .zone-content h4 {
+                    color: var(--primary-color);
+                    margin-top: 1.5rem;
+                    margin-bottom: 0.8rem;
+                    border-bottom: 1px solid var(--accent-color);
+                    padding-bottom: 0.3rem;
+                }
+                
+                .zone-stats {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+                    gap: 1rem;
+                    margin-top: 1.5rem;
+                }
+                
+                .zone-stat {
+                    background-color: rgba(18, 18, 31, 0.7);
+                    padding: 0.8rem;
+                    border-radius: 3px;
+                    border: 1px solid var(--accent-color);
+                }
+                
+                .zone-stat-title {
+                    color: var(--primary-color);
+                    font-size: 0.9rem;
+                    margin-bottom: 0.3rem;
+                }
+                
+                .map-filters {
+                    margin-bottom: 1.5rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 0.5rem;
+                }
+                
+                .map-filter {
+                    background-color: var(--panel-color);
+                    border: 1px solid var(--accent-color);
+                    padding: 0.5rem 1rem;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    border-radius: 3px;
+                }
+                
+                .map-filter:hover {
+                    border-color: var(--primary-color);
+                }
+                
+                .map-filter.active {
+                    background-color: var(--primary-color);
+                    color: var(--panel-color);
+                }
+                
+                /* Types de zones avec couleurs diffÃ©rentes */
+                .map-cell.city {
+                    border-color: var(--primary-color);
+                    background-color: rgba(255, 123, 0, 0.2);
+                }
+                
+                .map-cell.outzone {
+                    border-color: var(--secondary-color);
+                    background-color: rgba(81, 255, 0, 0.2);
+                }
+                
+                .map-cell.wasteland {
+                    border-color: #ff0000;
+                    background-color: rgba(255, 0, 0, 0.1);
+                }
+                
+                .map-cell.special {
+                    border-color: #00c2ff;
+                    background-color: rgba(0, 194, 255, 0.1);
+                }
+                
+                .legend {
+                    margin-top: 1rem;
+                    margin-bottom: 2rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+                }
+                
+                .legend-item {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 1rem;
+                }
+                
+                .legend-color {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 0.5rem;
+                    border: 1px solid var(--accent-color);
+                }
+                
+                .city-color { background-color: rgba(255, 123, 0, 0.4); border-color: var(--primary-color); }
+                .outzone-color { background-color: rgba(81, 255, 0, 0.4); border-color: var(--secondary-color); }
+                .wasteland-color { background-color: rgba(255, 0, 0, 0.2); border-color: #ff0000; }
+                .special-color { background-color: rgba(0, 194, 255, 0.3); border-color: #00c2ff; }
