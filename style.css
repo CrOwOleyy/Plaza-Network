@@ -139,12 +139,12 @@
             gap: 1.5rem;
         }
         
-                .card-image img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                    object-position: 0px 0px;
-                }
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 0px 0px;
+        }
 
         .card {
             background-color: var(--panel-color);
@@ -161,6 +161,14 @@
         }
         
         .card-image {
+            height: 180px;
+            background-color: #232338;
+            background-image: url('/api/placeholder/280/180');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-image2 {
             height: 180px;
             background-color: #232338;
             background-image: url('/api/placeholder/280/180');
@@ -671,242 +679,178 @@
 
 
 
-                /* CARTE INTERACRIVE */
+        .map-container {
+            position: relative;
+            max-width: 1600px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        
+        .map-image {
+            width: 100%;
+            display: block;
+            border: 1px solid var(--accent-color);
+            border-radius: 5px;
+        }
+        
+        .map-area {
+            position: absolute;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 123, 0, 0);
+            border-radius: 2px;
+        }
+        
+        .map-area:hover {
+            background-color: rgba(255, 123, 0, 0.3);
+            box-shadow: 0 0 15px var(--primary-color);
+            border: 1px solid rgba(255, 123, 0, 0.5);
+        }
+        
+        .map-area.active {
+            background-color: rgba(255, 123, 0, 0.4);
+            border: 1px solid var(--primary-color);
+            box-shadow: 0 0 20px var(--primary-color);
+        }
+        
+        .map-info {
+            background-color: var(--panel-color);
+            border: 1px solid var(--primary-color);
+            border-radius: 5px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+        
+        .map-selector {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .map-button {
+            padding: 0.8rem 1.5rem;
+            background-color: var(--panel-color);
+            color: var(--text-color);
+            border: 1px solid var(--accent-color);
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .map-button:hover {
+            background-color: var(--panel-color);
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+        
+        .map-button.active {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            color: var(--panel-color);
+        }
+        
+        .zone-title {
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-bottom: 1px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        .zone-description {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+        
+        .activities-title {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1.4rem;
+        }
+        
+        .activities-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .activities-list li {
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .activities-list li:before {
+            content: '■';
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        footer {
+            background-color: var(--panel-color);
+            border-top: 2px solid var(--primary-color);
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .logo {
+                margin-bottom: 1rem;
+            }
+            
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 0.5rem;
+            }
+            
+            .map-selector {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .map-button {
+                width: 100%;
+                max-width: 300px;
+                text-align: center;
+            }
+        }
 
-
-
-
-
-
-
-
-
-                .interactive-map {
-                    display: grid;
-                    grid-template-columns: repeat(14, 1fr); /* 14x14 = 196 cellules (proche de 204) */
-                    gap: 1px;
-                    width: 100%;
-                    aspect-ratio: 1/1;
-                    max-width: 1000px;
-                    margin: 0 auto;
-                    background-image: url('assets/map-background.jpg'); /* Image de fond de la carte */
-                    background-size: cover;
-                    background-position: center;
-                    position: relative;
-                    border: 2px solid var(--accent-color);
-                    border-radius: 5px;
-                    overflow: hidden;
-                }
-                
-                .map-cell {
-                    position: relative;
-                    background-color: rgba(10, 10, 18, 0.1); /* Semi-transparent */
-                    border: 1px solid rgba(68, 68, 102, 0.3);
-                    cursor: pointer;
-                    transition: all 0.3s;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-                
-                .map-cell:hover {
-                    background-color: rgba(255, 123, 0, 0.3);
-                    border-color: var(--primary-color);
-                    transform: scale(1.05);
-                    z-index: 10;
-                }
-                
-                .map-cell.active {
-                    background-color: rgba(255, 123, 0, 0.4);
-                    border-color: var(--primary-color);
-                    box-shadow: 0 0 15px rgba(255, 123, 0, 0.5);
-                }
-                
-                .map-cell-name {
-                    position: absolute;
-                    bottom: 5px;
-                    left: 5px;
-                    font-size: 0.6rem;
-                    color: var(--text-color);
-                    text-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
-                    font-weight: bold;
-                }
-                
-                .zone-info {
-                    background-color: var(--panel-color);
-                    border: 1px solid var(--accent-color);
-                    border-radius: 5px;
-                    padding: 1.5rem;
-                    margin-top: 2rem;
-                    display: none;
-                    position: relative;
-                }
-                
-                .zone-info.active {
-                    display: block;
-                    animation: fadeIn 0.5s ease-in-out;
-                }
-                
-                .close-zone-info {
-                    position: absolute;
-                    top: 10px;
-                    right: 10px;
-                    background-color: var(--panel-color);
-                    border: 1px solid var(--accent-color);
-                    color: var(--primary-color);
-                    width: 30px;
-                    height: 30px;
-                    border-radius: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    cursor: pointer;
-                    font-weight: bold;
-                    transition: all 0.3s;
-                }
-                
-                .close-zone-info:hover {
-                    background-color: var(--primary-color);
-                    color: var(--panel-color);
-                }
-                
-                .zone-header {
-                    display: flex;
-                    align-items: flex-start;
-                    margin-bottom: 1.5rem;
-                }
-                
-                .zone-image {
-                    width: 150px;
-                    height: 150px;
-                    background-color: #232338;
-                    border: 1px solid var(--accent-color);
-                    margin-right: 1.5rem;
-                    flex-shrink: 0;
-                    background-size: cover;
-                    background-position: center;
-                }
-                
-                .zone-details h3 {
-                    color: var(--primary-color);
-                    margin-top: 0;
-                    margin-bottom: 0.5rem;
-                    font-size: 1.5rem;
-                    text-shadow: 0 0 5px rgba(0, 194, 255, 0.3);
-                }
-                
-                .zone-tags {
-                    display: flex;
-                    flex-wrap: wrap;
-                    gap: 0.5rem;
-                    margin-bottom: 1rem;
-                }
-                
-                .zone-tag {
-                    background-color: rgba(255, 123, 0, 0.2);
-                    color: var(--primary-color);
-                    padding: 0.3rem 0.8rem;
-                    border-radius: 3px;
-                    font-size: 0.8rem;
-                    border: 1px solid var(--primary-color);
-                }
-                
-                .zone-content h4 {
-                    color: var(--primary-color);
-                    margin-top: 1.5rem;
-                    margin-bottom: 0.8rem;
-                    border-bottom: 1px solid var(--accent-color);
-                    padding-bottom: 0.3rem;
-                }
-                
-                .zone-stats {
-                    display: grid;
-                    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-                    gap: 1rem;
-                    margin-top: 1.5rem;
-                }
-                
-                .zone-stat {
-                    background-color: rgba(18, 18, 31, 0.7);
-                    padding: 0.8rem;
-                    border-radius: 3px;
-                    border: 1px solid var(--accent-color);
-                }
-                
-                .zone-stat-title {
-                    color: var(--primary-color);
-                    font-size: 0.9rem;
-                    margin-bottom: 0.3rem;
-                }
-                
-                .map-filters {
-                    margin-bottom: 1.5rem;
-                    display: flex;
-                    flex-wrap: wrap;
-                    gap: 0.5rem;
-                }
-                
-                .map-filter {
-                    background-color: var(--panel-color);
-                    border: 1px solid var(--accent-color);
-                    padding: 0.5rem 1rem;
-                    cursor: pointer;
-                    transition: all 0.3s;
-                    border-radius: 3px;
-                }
-                
-                .map-filter:hover {
-                    border-color: var(--primary-color);
-                }
-                
-                .map-filter.active {
-                    background-color: var(--primary-color);
-                    color: var(--panel-color);
-                }
-                
-                /* Types de zones avec couleurs diffÃ©rentes */
-                .map-cell.city {
-                    border-color: var(--primary-color);
-                    background-color: rgba(255, 123, 0, 0.2);
-                }
-                
-                .map-cell.outzone {
-                    border-color: var(--secondary-color);
-                    background-color: rgba(81, 255, 0, 0.2);
-                }
-                
-                .map-cell.wasteland {
-                    border-color: #ff0000;
-                    background-color: rgba(255, 0, 0, 0.1);
-                }
-                
-                .map-cell.special {
-                    border-color: #00c2ff;
-                    background-color: rgba(0, 194, 255, 0.1);
-                }
-                
-                .legend {
-                    margin-top: 1rem;
-                    margin-bottom: 2rem;
-                    display: flex;
-                    flex-wrap: wrap;
-                    gap: 1rem;
-                }
-                
-                .legend-item {
-                    display: flex;
-                    align-items: center;
-                    margin-right: 1rem;
-                }
-                
-                .legend-color {
-                    width: 20px;
-                    height: 20px;
-                    margin-right: 0.5rem;
-                    border: 1px solid var(--accent-color);
-                }
-                
-                .city-color { background-color: rgba(255, 123, 0, 0.4); border-color: var(--primary-color); }
-                .outzone-color { background-color: rgba(81, 255, 0, 0.4); border-color: var(--secondary-color); }
-                .wasteland-color { background-color: rgba(255, 0, 0, 0.2); border-color: #ff0000; }
-                .special-color { background-color: rgba(0, 194, 255, 0.3); border-color: #00c2ff; }
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text-color);
+            background: none;
+            border: none;
+            font-weight: bold;
+        }
+        
+        .close-btn:hover {
+            color: var(--primary-color);
+        }
+        
