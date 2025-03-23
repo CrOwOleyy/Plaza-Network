@@ -4,276 +4,232 @@
                 id: "O1",
                 title: "Outzone 1",
                 coords: "1024,256,776,1",
-                description: "Une zone frontalière du nord-est de Neocron, Outzone 1 est connue pour ses grands espaces ouverts et ses routes commerciales. C'est une région relativement sûre comparée aux autres Outzones.",
+                description: "Première zone de Neocron. Aussi un marché.",
                 activities: [
-                    "Missions de reconnaissance pour le CopCorps",
-                    "Chasse aux mutants de faible niveau",
-                    "Commerce avec les avant-postes",
-                    "Exploration des bunkers abandonnés"
+                    "Marché d'Outzone"
                 ]
             },
             {
                 id: "O2",
                 title: "Outzone 2",
                 coords: "510,254,776,1",
-                description: "Située au nord de la ville, Outzone 2 est une zone intermédiaire comportant des installations militaires et des sites d'extraction de ressources abandonnés. La contamination y est plus élevée que dans O1.",
+                description: "Deuxième zone de Neocron. Possède la même carte que le tutoriel du jeu.",
                 activities: [
-                    "Récupération de technologies anciennes",
-                    "Affrontements avec des groupes de bandits",
-                    "Missions d'exploration pour les Runners",
-                    "Collecte de ressources rares"
+                    "Aucune activités significatives"
                 ]
             },
             {
                 id: "O3",
                 title: "Outzone 3",
                 coords: "254,767,510,1026",
-                description: "Une région dangereuse au sud-ouest, Outzone 3 abrite des ruines irradiées et des groupes de mutants hostiles. Peu de gens s'y aventurent sans protection adéquate.",
+                description: "Troisème zone d'Outzone",
                 activities: [
-                    "Missions à haut risque pour les mercenaires",
-                    "Chasse aux créatures mutantes puissantes",
-                    "Recherche de matériaux radioactifs",
-                    "Exploration des complexes souterrains"
+                    "Aucune activités significatives"
                 ]
             },
             {
                 id: "O4",
                 title: "Outzone 4",
                 coords: "510,255,256,0",
-                description: "Zone nord-ouest, Outzone 4 est réputée pour ses anciens laboratoires et centres de recherche datant d'avant la guerre. La zone attire scientifiques et pilleurs de l'ère technologique.",
+                description: "Quatrième zone d'Outzone",
                 activities: [
-                    "Récupération de données scientifiques",
-                    "Neutralisation de systèmes de défense autonomes",
-                    "Expéditions pour les Éclaireurs de Terra",
-                    "Affrontements avec des groupes rivaux"
+                    "Aucune activités significatives"
                 ]
             },
             {
                 id: "O5",
                 title: "Outzone 5",
                 coords: "254,258,0,0",
-                description: "La zone la plus occidentale et l'une des plus isolées, Outzone 5 est connue pour ses conditions climatiques extrêmes et ses terrains difficiles. Peu de structures y subsistent.",
+                description: "Cinquième zone d'Outzone",
                 activities: [
-                    "Tests de survie en environnement hostile",
-                    "Chasse de créatures rares",
-                    "Extraction de minéraux précieux",
-                    "Études des anomalies atmosphériques"
+                    "Aucune activités significatives"
                 ]
             },
             {
                 id: "O6",
                 title: "Outzone 6",
                 coords: "256,255,510,513",
-                description: "Une région de transition entre plusieurs zones, Outzone 6 est caractérisée par ses larges canyons et ses formations rocheuses. Des groupes nomades y ont établi des campements temporaires.",
+                description: "Sixième zone d'Outzone",
                 activities: [
-                    "Négociations avec les tribus nomades",
-                    "Protection des caravanes commerciales",
-                    "Prospection de ressources naturelles",
-                    "Reconnaissance pour les factions de la ville"
+                    "Aucune activités significatives"
                 ]
             },
             {
                 id: "O7",
                 title: "Outzone 7",
                 coords: "510,767,256,512",
-                description: "Au centre-ouest de la carte, Outzone 7 abrite d'anciennes installations civiles et des quartiers résidentiels en ruines. La zone est disputée entre plusieurs factions.",
+                description: "Septième zone d'Outzone",
                 activities: [
-                    "Récupération d'objets personnels d'avant-guerre",
-                    "Médiation entre groupes rivaux",
-                    "Missions de sabotage",
-                    "Exploration urbaine des ruines"
+                    "Bâtiment vide"
                 ]
             },
             {
                 id: "O8",
                 title: "Outzone 8",
                 coords: "1535,514,1280,767",
-                description: "À l'est de Neocron, Outzone 8 est une région montagneuse avec des vallées encaissées. D'anciennes installations minières y sont encore partiellement fonctionnelles.",
+                description: "Huitième Secteur d'Outzone",
                 activities: [
-                    "Exploitation des ressources minières",
-                    "Confrontations avec les systèmes de sécurité automatisés",
-                    "Missions de sabotage industriel",
-                    "Recherche d'anciennes technologies d'extraction"
+                    "Prison de Neocron (Zone extrêmement dangeureuse"
                 ]
             },
             {
                 id: "O9",
                 title: "Outzone 9",
                 coords: "766,513,1021,769",
-                description: "Zone centrale proche de la ville, Outzone 9 est relativement sécurisée et sert de point de transit pour les voyageurs. On y trouve quelques installations commerciales.",
+                description: "Neuvième Zone d'Outzone.",
                 activities: [
-                    "Échanges commerciaux sécurisés",
-                    "Recrutement de mercenaires",
-                    "Missions de livraison",
-                    "Surveillance des activités suspectes"
+                    "Bâtiment secret de Brotherhood Of Crahn",
+                    "Sortie sur A-07 et A-06"
                 ]
             },
             {
                 id: "S1",
                 title: "Secret Passage 1",
                 coords: "1026,512,1279,768",
-                description: "Premier secteur de la ville de Neocron, S1 est un quartier résidentiel de classe moyenne avec des infrastructures bien entretenues. La sécurité y est assurée par le CopCorps.",
+                description: "Premier passage secret, elle est utile pour certaines missions Epic",
                 activities: [
-                    "Missions pour les corporations locales",
-                    "Transactions légales sur le marché",
-                    "Rencontres avec des informateurs",
-                    "Participation aux événements sociaux"
+                    "Aucune activités significatives"
                 ]
             },
             {
                 id: "S2",
                 title: "Secret Passage 2",
                 coords: "1280,766,1535,1026",
-                description: "Deuxième secteur urbain, S2 est connu pour ses établissements de divertissement et ses zones commerciales animées. C'est un centre culturel important de Neocron.",
+                description: "Deuxième passage secret, elle est utile pour certaines missions Epic",
                 activities: [
-                    "Participation aux tournois virtuels",
-                    "Négociations avec les guildes marchandes",
-                    "Collecte d'informations dans les bars",
-                    "Achat d'équipements de qualité"
+                    "Aucune activités significatives"
                 ]
             },
             {
                 id: "I1",
                 title: "Industrial Sector 1",
                 coords: "765,770,1021,1023",
-                description: "Première zone de la ville intérieure, I1 abrite des bâtiments gouvernementaux et des sièges de corporations. L'architecture y est imposante et la sécurité renforcée.",
+                description: "Première zone du Secteur Industriel.",
                 activities: [
-                    "Missions diplomatiques",
-                    "Espionnage corporatif",
-                    "Réunions avec des officiels",
-                    "Participation aux enchères de technologie"
+                    "Aucune activités significatives"
                 ]
             },
             {
                 id: "I2",
                 title: "Industial Sector 2",
                 coords: "510,767,765,1023",
-                description: "Deuxième zone de la ville intérieure, I2 est le centre technologique de Neocron avec ses laboratoires et centres de recherche avancés. L'accès y est strictement contrôlé.",
+                description: "Deuxième zone du Secteur Industriel.",
                 activities: [
-                    "Collaboration sur des projets scientifiques",
-                    "Vol de prototypes expérimentaux",
-                    "Recrutement de spécialistes",
-                    "Tests de nouvelles technologies"
+                    "Aucune activités significatives"
                 ]
             },
             {
                 id: "Pepper Park 1",
-                title: "Plaza 1",
+                title: "Pepper Park 1",
                 coords: "766,1279,1023,1537",
-                description: "Première section de la Plaza, PP1 est une zone commerciale animée avec de nombreuses boutiques et services. C'est un point de rencontre populaire pour les habitants.",
+                description: "Première section de la Plaza, Pepper Park Sec-1 est une zone commerciale animée avec de nombreuses boutiques et services. C'est un point de rencontre populaire pour les habitants.",
                 activities: [
-                    "Shopping de haute technologie",
-                    "Échanges sur le marché noir",
-                    "Recrutement pour missions privées",
-                    "Participation aux événements publics"
+                    "NeoFrag1",
+                    "Club Veronique",
+                    "Tsunami Syndicate HQ"
                 ]
             },
             {
                 id: "PP2",
                 title: "Pepper Park 2",
                 coords: "766,1024,1021,1279",
-                description: "Deuxième section de la Plaza, PP2 est connue pour ses centres médicaux et ses installations de modification corporelle. Les meilleurs médecins de la ville y exercent.",
+                description: "Deuxième section de Pepper Park, Pepper Park Sec-2 abrite le plus de divertissements avec ses bars, clubs et casinos.",
                 activities: [
-                    "Achat d'implants cybernétiques",
-                    "Missions pour les corporations médicales",
-                    "Transactions de substances contrôlées",
-                    "Recherche de traitements expérimentaux"
+                    "NeoFrag2",
+                    "Black Dragon HQ",
+                    "Tiki Tornado Club",
+                    "The mysterious Maze"
                 ]
             },
             {
                 id: "PP3",
-                title: "Pepper Park 3",
+                title: "Pepper Park Sec-3",
                 coords: "1277,1025,1021,1281",
-                description: "Troisième section de la Plaza, PP3 abrite le quartier des divertissements avec ses bars, clubs et casinos. L'atmosphère y est électrique, surtout la nuit.",
+                description: "Troisième section de Pepper Park, Pepper Park Sec-3 est connue pour ses secrets.",
                 activities: [
-                    "Jeux d'argent dans les casinos",
-                    "Rencontres avec des fixers",
-                    "Écoute des rumeurs locales",
-                    "Participation aux compétitions clandestines"
+                    "Brotherhood Of Crahn HQ",
+                    "Bump Asylum",
+                    "Smugglers Cave",
+                    "Vendeurs peu cher"
                 ]
             },
             {
                 id: "P1",
                 title: "Plaza 1",
                 coords: "1532,1378,1790,1633",
-                description: "Première section de Pepper Park, quartier rouge de Neocron, P1 est réputée pour ses établissements de plaisir et son ambiance sulfureuse. La criminalité y est élevée.",
+                description: "Première section de Plaza, elle est la zone la mieux peuplée de toutes les zones. Vous y trouverez le lobby où tous les joueurs se regroupent",
                 activities: [
-                    "Négociations avec les syndicats criminels",
-                    "Protection des établissements",
-                    "Collecte de dettes impayées",
-                    "Recherche de personnes disparues"
+                    "Typherra Memorial",
+                    "Con Center",
+                    "Vendeurs divers",
+                    "City Administration HQ",
+                    "Agence immoblières Diamond"
                 ]
             },
             {
                 id: "P2",
                 title: "Plaza 2",
                 coords: "1279,1379,1532,1633",
-                description: "Deuxième section de Pepper Park, P2 est une zone où se mêlent petits commerces et activités illégales. C'est un territoire disputé entre plusieurs gangs.",
+                description: "Deuxième section de Plaza, c'est une zone où se mêlent petits commerces et activités de travail.",
                 activities: [
-                    "Arbitrage de conflits territoriaux",
-                    "Achat d'informations sensibles",
-                    "Missions d'infiltration",
-                    "Récupération d'objets volés"
+                    "Job Center",
+                    "Protopharm Laboratory",
+                    "Missions d'infiltration"
                 ]
             },
             {
                 id: "P3",
                 title: "Plaza 3",
                 coords: "1021,1379,1277,1633",
-                description: "Troisième section de Pepper Park, P3 est moins développée que les autres zones du quartier. On y trouve des entrepôts et des logements précaires.",
+                description: "Troisième section de Plaza, moins développée que les autres zones du quartier. On y trouve des entrepôts et des logements.",
                 activities: [
-                    "Stockage de marchandises illicites",
-                    "Recrutement de main-d'œuvre",
-                    "Missions de contrebande",
-                    "Recherche d'abris temporaires"
+                    "Diamond Real Estate HQ",
+                    "ASG (Vendeur de véhicue)",
+                    "Vendeurs divers"
                 ]
             },
             {
                 id: "P4",
                 title: "Plaza 4",
                 coords: "1535,1665,1790,1919",
-                description: "Quatrième section de Pepper Park, P4 est la zone la plus dangereuse du quartier avec une forte présence criminelle. Seuls les plus téméraires s'y aventurent la nuit.",
+                description: "Quatrième section de Plaza, elle est la moins peuplée des 4 secteurs de Plaza.",
                 activities: [
-                    "Affrontements avec les gangs locaux",
-                    "Récupération d'objets de valeur",
-                    "Sauvetage d'otages",
-                    "Sabotage des opérations rivales"
+                    "NEXT HQ",
+                    "ASG (Vendeur de véhicule)",
+                    "Vendeurs divers"
                 ]
             },
             {
                 id: "V1",
                 title: "Via Rosso 1",
                 coords: "1279,1920,1535,2176",
-                description: "Première section de Via Rosso, V1 est un quartier industriel avec de nombreuses usines et centres de production. L'air y est pollué mais les opportunités nombreuses.",
+                description: "Première section de Via Rosso, Via Rosso Sec-1 est un quartier industriel avec de nombreuses usines et centres de production.",
                 activities: [
-                    "Sabotage industriel",
-                    "Missions syndicales",
-                    "Détournement de ressources",
-                    "Infiltration des systèmes de sécurité"
+                    "Zoo de Neocron",
+                    "Vendeurs de décorations",
+                    "Biotech Systems HQ",
+                    "Archer & Wesson"
                 ]
             },
             {
                 id: "V2",
                 title: "Via Rosso 2",
                 coords: "1279,1665,1535,1919",
-                description: "Deuxième section de Via Rosso, V2 abrite des installations de recyclage et des centres de traitement des déchets. Les conditions de vie y sont difficiles.",
+                description: "Deuxième section de Via Rosso, Via Rosso Sec-2 abrite des installations de recyclage et des centres de traitement des déchets.",
                 activities: [
-                    "Récupération de matériaux dangereux",
-                    "Missions environnementales",
-                    "Recherche de technologies abandonnées",
-                    "Organisation de la résistance ouvrière"
+                    "Tangent Technologies",
+                    "Vendeurs divers"
                 ]
             },
             {
                 id: "V3",
                 title: "Via Rosso 3",
                 coords: "1021,1921,1279,2176",
-                description: "Troisième section de Via Rosso, V3 est la zone la plus pauvre de Neocron. Ses habitants luttent quotidiennement pour survivre dans cet environnement hostile.",
+                description: "Troisième section de Via Rosso, Via Rosso est la zone avec les meilleurs vendeurs.",
                 activities: [
-                    "Distribution d'aide humanitaire",
-                    "Protection des communautés locales",
-                    "Chasse aux trafiquants d'organes",
-                    "Organisation de réseaux d'entraide"
+                    "NeoKea",
+                    "NCPD Police Departement",
+                    "ASG (Vendeurs de véhicules)"
                 ]
             }
         ];
