@@ -203,6 +203,25 @@
             color: var(--primary-color);
         }
         
+
+        .lang-toggle {
+            margin-left: auto;
+            font-weight: bold;
+        }
+
+        .lang-toggle a {
+            color: #fff; /* ou autre couleur de ton thème */
+            background-color: #12121f;
+            padding: 6px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .lang-toggle a:hover {
+            background-color: #12121f;
+        }
+
         .article {
             background-color: var(--panel-color);
             border-radius: 5px;
