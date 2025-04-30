@@ -69,7 +69,7 @@
                 coords: "1535,514,1280,767",
                 description: "Huitième Secteur d'Outzone",
                 activities: [
-                    "Prison de Neocron (Zone extrêmement dangeureuse"
+                    "Prison de Neocron (Zone extrêmement dangeureuse)"
                 ]
             },
             {
@@ -234,62 +234,11 @@
             }
         ];
 
-        const yorkZones = [
-            {
-                id: "Y1",
-                title: "Secteur Principal",
-                coords: "300,300,500,500",
-                description: "Le cœur du Dôme de York, ce secteur abrite les principales installations administratives et le centre de contrôle environnemental qui maintient l'habitabilité du dôme.",
-                activities: [
-                    "Missions diplomatiques pour les factions",
-                    "Maintenance des systèmes de survie",
-                    "Négociations commerciales",
-                    "Collecte de données historiques"
-                ]
-            },
-            {
-                id: "Y2",
-                title: "Quartier Résidentiel",
-                coords: "510,300,700,500",
-                description: "Zone d'habitation principale du Dôme de York, ce quartier est organisé en grands complexes d'appartements avec des espaces communs aménagés.",
-                activities: [
-                    "Résolution de conflits entre résidents",
-                    "Réparation des systèmes de vie",
-                    "Organisation d'événements communautaires",
-                    "Surveillance des activités suspectes"
-                ]
-            },
-            {
-                id: "Y3",
-                title: "Centre Scientifique",
-                coords: "300,510,500,700",
-                description: "Complexe de recherche avancée où sont menées des études sur l'adaptation humaine et la terraformation. Plusieurs laboratoires secrets y sont dissimulés.",
-                activities: [
-                    "Participation aux expériences scientifiques",
-                    "Vol de données de recherche",
-                    "Sabotage de projets controversés",
-                    "Recrutement de cerveaux brillants"
-                ]
-            },
-            {
-                id: "Y4",
-                title: "Jardin Hydroponique",
-                coords: "510,510,700,700",
-                description: "Vaste complexe agricole utilisant des technologies hydroponiques avancées pour nourrir la population du dôme. Une merveille de biotechnologie.",
-                activities: [
-                    "Maintenance des systèmes d'irrigation",
-                    "Protection contre les saboteurs",
-                    "Développement de nouvelles cultures",
-                    "Distribution de nourriture"
-                ]
-            }
-        ];
-
         const wastelandsZones = [
             {
-                id: "W1",
-                title: "Terres Désolées du Nord",
-                coords: "300,100,700,300",
+                id: "NC",
+                title: "Neocron",
+                coords: "592,1139,584,1136,585,1116,596,1103,636,1102,660,1120,711,1124,714,1112,697,1093,694,1075,700,1068,724,1068,751,1096,779,1096,783,1120,806,1147,577,1151",
                 description: "Vaste région aride et balayée par des vents radioactifs. Des caravanes de nomades y circulent entre les rares points d'eau et abris.",
                 activities: [
                     "Survie en environnement hostile",
@@ -301,7 +250,7 @@
             {
                 id: "W2",
                 title: "Ruines de l'Ancienne Mégapole",
-                coords: "500,300,900,500",
+                coords: "490,1037,575,1131",
                 description: "Les vestiges d'une immense ville d'avant-guerre. Ces ruines urbaines sont désormais le territoire de bandes organisées et de créatures mutantes.",
                 activities: [
                     "Récupération de technologies anciennes",
@@ -338,7 +287,6 @@
                     document.addEventListener('DOMContentLoaded', function() {
     // Référence aux conteneurs de cartes
     const caligaMap = document.getElementById('caliga-map');
-    const yorkMap = document.getElementById('york-map');
     const wastelandsMap = document.getElementById('wastelands-map');
     const zoneInfo = document.getElementById('zone-info');
     
@@ -383,10 +331,10 @@
     function displayZoneInfo(zone) {
         // Associer chaque type de zone à une page spécifique
         let pageLink = "";
-        if (zone.id.startsWith("O")) pageLink = "outzone.html";
-        else if (zone.id.startsWith("V")) pageLink = "viarosso.html";
-        else if (zone.id.startsWith("PP")) pageLink = "pepperpark.html";
-        else if (zone.id.startsWith("P")) pageLink = "plaza.html";
+        if (zone.id.startsWith("O")) pageLink = "outzone_fr.html";
+        else if (zone.id.startsWith("V")) pageLink = "viarosso_fr.html";
+        else if (zone.id.startsWith("PP")) pageLink = "pepperpark_fr.html";
+        else if (zone.id.startsWith("P")) pageLink = "plaza_fr.html";
     
         // Vérifier si la zone doit avoir un lien
         const isLinked = pageLink !== "";
@@ -418,7 +366,6 @@
     function switchMap(mapId) {
         // Cacher toutes les cartes
         caligaMap.style.display = 'none';
-        yorkMap.style.display = 'none';
         wastelandsMap.style.display = 'none';
         
         // Afficher la carte sélectionnée
@@ -448,15 +395,13 @@
     
     // Créer les zones cliquables pour chaque carte
     createMapAreas(caligaMap, caligaZones);
-    createMapAreas(yorkMap, yorkZones);
     createMapAreas(wastelandsMap, wastelandsZones);
     
     // Correction des positions des zones pour les adapter à la taille réelle des images
     function adjustAreaPositions() {
         const maps = [
             { container: caligaMap, originalWidth: 1790, originalHeight: 2200 },
-            { container: yorkMap, originalWidth: 1024, originalHeight: 1024 },
-            { container: wastelandsMap, originalWidth: 1024, originalHeight: 1024 }
+            { container: wastelandsMap, originalWidth: 1620, originalHeight: 1200 }
         ];
         
         maps.forEach(map => {

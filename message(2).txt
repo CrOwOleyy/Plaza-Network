@@ -1,0 +1,195 @@
+<img src="terrain_1600.bmp" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="Military Base" title="Military Base" href="" coords="76,296,247,329" shape="rect">
+    <area target="" alt="Military Base" title="Military Base" href="" coords="66,295,19" shape="circle">
+    <area target="" alt="Tech" title="Tech" href="" coords="611,671,752,699" shape="rect">
+    <area target="" alt="Tech" title="Tech" href="" coords="608,628,19" shape="circle">
+    <area target="" alt="Canyon" title="Canyon" href="" coords="1143,731,1384,761" shape="rect">
+    <area target="" alt="Canyon" title="Canyon" href="" coords="1167,717,16" shape="circle">
+    <area target="" alt="Neocron" title="Neocron" href="" coords="592,1139,584,1136,585,1116,596,1103,636,1102,660,1120,711,1124,714,1112,697,1093,694,1075,700,1068,724,1068,751,1096,779,1096,783,1120,806,1147,577,1151" shape="poly">
+    <area target="" alt="Neocron" title="Neocron" href="" coords="612,1098,14" shape="circle">
+    <area target="" alt="Neocron" title="Neocron" href="" coords="705,1064,12" shape="circle">
+    <area target="" alt="Neocron" title="Neocron" href="" coords="765,1092,13" shape="circle">
+    <area target="" alt="Simmons Factory" title="Simmons Factory" href="" coords="519,1088,12" shape="circle">
+    <area target="" alt="Point Red" title="Point Red" href="" coords="619,1000,13" shape="circle">
+    <area target="" alt="Jeriko Fortress" title="Jeriko Fortress" href="" coords="700,989,15" shape="circle">
+    <area target="" alt="Mutant Trap" title="Mutant Trap" href="" coords="724,1010,13" shape="circle">
+    <area target="" alt="Sherman Bay" title="Sherman Bay" href="" coords="876,1017,11" shape="circle">
+    <area target="" alt="McPherson Factory " title="McPherson Factory " href="" coords="981,1015,15" shape="circle">
+    <area target="" alt="Tawkeen Village" title="Tawkeen Village" href="" coords="553,902,13" shape="circle">
+    <area target="" alt="Tyron Factory" title="Tyron Factory" href="" coords="601,885,15" shape="circle">
+    <area target="" alt="Crest Village" title="Crest Village" href="" coords="690,912,13" shape="circle">
+    <area target="" alt="Krupp Factory" title="Krupp Factory" href="" coords="798,897,17" shape="circle">
+    <area target="" alt="Ceres Mine" title="Ceres Mine" href="" coords="1077,894,18" shape="circle">
+    <area target="" alt="Gravis Uplink" title="Gravis Uplink" href="" coords="551,840,17" shape="circle">
+    <area target="" alt="Redrock Mine" title="Redrock Mine" href="" coords="611,814,15" shape="circle">
+    <area target="" alt="Crest Uplink" title="Crest Uplink" href="" coords="789,832,17" shape="circle">
+    <area target="" alt="Calida Village" title="Calida Village" href="" coords="818,849,14" shape="circle">
+    <area target="" alt="Foster Uplink" title="Foster Uplink" href="" coords="989,835,16" shape="circle">
+    <area target="" alt="Grant Mine" title="Grant Mine" href="" coords="1166,801,19" shape="circle">
+    <area target="" alt="Regants Legacy" title="Regants Legacy" href="" coords="263,763,14" shape="circle">
+    <area target="" alt="Techhaven" title="Techhaven" href="" coords="625,743,21" shape="circle">
+    <area target="" alt="Shirkan Fortress" title="Shirkan Fortress" href="" coords="870,714,17" shape="circle">
+    <area target="" alt="Catlock Bay" title="Catlock Bay" href="" coords="1054,728,15" shape="circle">
+    <area target="" alt="Regant Fortress" title="Regant Fortress" href="" coords="467,649,15" shape="circle">
+    <area target="" alt="Old Greycore Outpost" title="Old Greycore Outpost" href="" coords="531,630,15" shape="circle">
+    <area target="" alt="Blakkmist Garbage Dump" title="Blakkmist Garbage Dump" href="" coords="793,639,17" shape="circle">
+    <area target="" alt="Devereaux Fortress" title="Devereaux Fortress" href="" coords="960,629,17" shape="circle">
+    <area target="" alt="CRP" title="CRP" href="" coords="1064,627,16" shape="circle">
+    <area target="" alt="Cycrow Lab" title="Cycrow Lab" href="" coords="1093,652,17" shape="circle">
+    <area target="" alt="Gaia Mine" title="Gaia Mine" href="" coords="1165,650,16" shape="circle">
+    <area target="" alt="Gabanium Mine" title="Gabanium Mine" href="" coords="702,555,19" shape="circle">
+    <area target="" alt="Desert Racetrack" title="Desert Racetrack" href="" coords="965,553,13" shape="circle">
+    <area target="" alt="Tezla Factory" title="Tezla Factory" href="" coords="1052,565,16" shape="circle">
+    <area target="" alt="Gaia Mine" title="Gaia Mine" href="" coords="1165,572,14" shape="circle">
+    <area target="" alt="Jankins Lab" title="Jankins Lab" href="" coords="243,488,18" shape="circle">
+    <area target="" alt="Hawkins Uplink" title="Hawkins Uplink" href="" coords="633,485,18" shape="circle">
+    <area target="" alt="Malstrond Factory" title="Malstrond Factory" href="" coords="772,455,21" shape="circle">
+    <area target="" alt="Blackhill Fortress" title="Blackhill Fortress" href="" coords="980,483,15" shape="circle">
+    <area target="" alt="Gaia Mine" title="Gaia Mine" href="" coords="1115,466,14" shape="circle">
+    <area target="" alt="Nemesis Lab" title="Nemesis Lab" href="" coords="1145,455,17" shape="circle">
+    <area target="" alt="Soliko Lab" title="Soliko Lab" href="" coords="1326,462,16" shape="circle">
+    <area target="" alt="Eastgate Factory" title="Eastgate Factory" href="" coords="1415,469,14" shape="circle">
+    <area target="" alt="Sieger Uplink" title="Sieger Uplink" href="" coords="356,379,20" shape="circle">
+    <area target="" alt="Chester Lab" title="Chester Lab" href="" coords="437,390,16" shape="circle">
+    <area target="" alt="Emmerson Factory" title="Emmerson Factory" href="" coords="626,365,16" shape="circle">
+    <area target="" alt="Avenger Mine" title="Avenger Mine" href="" coords="686,384,18" shape="circle">
+    <area target="" alt="Tristar Uplink" title="Tristar Uplink" href="" coords="984,380,18" shape="circle">
+    <area target="" alt="Cajun Uplink" title="Cajun Uplink" href="" coords="1346,366,20" shape="circle">
+    <area target="" alt="Battle Dome" title="Battle Dome" href="" coords="339,293,16" shape="circle">
+    <area target="" alt="Yutano Mine" title="Yutano Mine" href="" coords="808,276,17" shape="circle">
+    <area target="" alt="El Farid Village" title="El Farid Village" href="" coords="865,301,19" shape="circle">
+    <area target="" alt="Ancient Loba Village" title="Ancient Loba Village" href="" coords="1143,277,15" shape="circle">
+    <area target="" alt="Syncon Lab" title="Syncon Lab" href="" coords="1223,276,19" shape="circle">
+    <area target="" alt="Rockshore Factory" title="Rockshore Factory" href="" coords="321,219,18" shape="circle">
+    <area target="" alt="Drakkhan Fortress" title="Drakkhan Fortress" href="" coords="431,229,17" shape="circle">
+    <area target="" alt="Northstar Uplink" title="Northstar Uplink" href="" coords="594,182,20" shape="circle">
+    <area target="" alt="El Farid Oasis" title="El Farid Oasis" href="" coords="852,226,14" shape="circle">
+    <area target="" alt="Tescom Uplink" title="Tescom Uplink" href="" coords="1061,194,20" shape="circle">
+    <area target="" alt="Ancient Yucida Village" title="Ancient Yucida Village" href="" coords="1169,212,14" shape="circle">
+    <area target="" alt="Escador Oasis" title="Escador Oasis" href="" coords="1322,211,20" shape="circle">
+    <area target="" alt="York" title="York" href="" coords="896,82,893,134,918,157,959,158,973,171,989,175,989,155,1044,155,1067,131,1106,131,1106,155,1123,169,1135,171,1137,189,1173,155,1211,153,1228,168,1239,168,1242,191,1251,201,1258,195,1256,182,1267,169,1287,171,1301,157,1393,157,1416,178,1423,160,1455,127,1457,85" shape="poly">
+    <area target="" alt="A06" title="A06" href="" coords="490,1037,575,1131" shape="rect">
+    <area target="" alt="A07" title="A07" href="" coords="576,1037,666,1129" shape="rect">
+    <area target="" alt="A08" title="A08" href="" coords="664,1038,751,1130" shape="rect">
+    <area target="" alt="A09" title="A09" href="" coords="751,1038,839,1131" shape="rect">
+    <area target="" alt="A10" title="A10" href="" coords="840,1037,924,1129" shape="rect">
+    <area target="" alt="A11" title="A11" href="" coords="926,1036,1015,1128" shape="rect">
+    <area target="" alt="B06" title="B06" href="" coords="489,948,575,1036" shape="rect">
+    <area target="" alt="B07" title="B07" href="" coords="575,948,663,1036" shape="rect">
+    <area target="" alt="B08" title="B08" href="" coords="664,950,749,1036" shape="rect">
+    <area target="" alt="B09" title="B09" href="" coords="749,950,838,1036" shape="rect">
+    <area target="" alt="B10" title="B10" href="" coords="837,950,924,1036" shape="rect">
+    <area target="" alt="B11" title="B11" href="" coords="924,949,1012,1036" shape="rect">
+    <area target="" alt="C06" title="C06" href="" coords="489,862,577,947" shape="rect">
+    <area target="" alt="C07" title="C07" href="" coords="577,861,661,947" shape="rect">
+    <area target="" alt="C08" title="C08" href="" coords="661,862,749,948" shape="rect">
+    <area target="" alt="C09" title="C09" href="" coords="749,861,837,948" shape="rect">
+    <area target="" alt="C10" title="C10" href="" coords="837,862,923,948" shape="rect">
+    <area target="" alt="C11" title="C11" href="" coords="924,862,1012,948" shape="rect">
+    <area target="" alt="C12" title="C12" href="" coords="1012,861,1105,948" shape="rect">
+    <area target="" alt="D05" title="D05" href="" coords="401,773,489,861" shape="rect">
+    <area target="" alt="D06" title="D06" href="" coords="489,775,574,864" shape="rect">
+    <area target="" alt="D07" title="D07" href="" coords="575,772,661,859" shape="rect">
+    <area target="" alt="D08" title="D08" href="" coords="660,773,748,861" shape="rect">
+    <area target="" alt="D09" title="D09" href="" coords="749,775,833,861" shape="rect">
+    <area target="" alt="D10" title="D10" href="" coords="831,775,923,862" shape="rect">
+    <area target="" alt="D11" title="D11" href="" coords="924,773,1011,861" shape="rect">
+    <area target="" alt="D12" title="D12" href="" coords="1012,775,1105,859" shape="rect">
+    <area target="" alt="D13" title="D13" href="" coords="1107,773,1192,861" shape="rect">
+    <area target="" alt="E03" title="E03" href="" coords="226,686,312,773" shape="rect">
+    <area target="" alt="E05" title="E05" href="" coords="401,687,488,772" shape="rect">
+    <area target="" alt="E06" title="E06" href="" coords="486,686,575,773" shape="rect">
+    <area target="" alt="E07" title="E07" href="" coords="574,690,659,770" shape="rect">
+    <area target="" alt="E08" title="E08" href="" coords="749,773,660,688" shape="rect">
+    <area target="" alt="E09" title="E09" href="" coords="838,775,748,686" shape="rect">
+    <area target="" alt="E10" title="E10" href="" coords="925,773,839,685" shape="rect">
+    <area target="" alt="E11" title="E11" href="" coords="924,686,1015,773" shape="rect">
+    <area target="" alt="E12" title="E12" href="" coords="1014,685,1103,774" shape="rect">
+    <area target="" alt="E13" title="E13" href="" coords="1104,684,1192,772" shape="rect">
+    <area target="" alt="F02" title="F02" href="" coords="141,598,229,686" shape="rect">
+    <area target="" alt="F03" title="F03" href="" coords="228,598,312,686" shape="rect">
+    <area target="" alt="F04" title="F04" href="" coords="312,599,401,688" shape="rect">
+    <area target="" alt="F05" title="F05" href="" coords="403,599,485,686" shape="rect">
+    <area target="" alt="F06" title="F06" href="" coords="485,598,577,684" shape="rect">
+    <area target="" alt="F07" title="F07" href="" coords="577,599,660,688" shape="rect">
+    <area target="" alt="F08" title="F08" href="" coords="663,599,747,680" shape="rect">
+    <area target="" alt="F09" title="F09" href="" coords="748,598,837,684" shape="rect">
+    <area target="" alt="F10" title="F10" href="" coords="835,599,923,684" shape="rect">
+    <area target="" alt="F11" title="F11" href="" coords="924,598,1015,684" shape="rect">
+    <area target="" alt="F12" title="F12" href="" coords="1013,597,1105,685" shape="rect">
+    <area target="" alt="F13" title="F13" href="" coords="1105,598,1193,684" shape="rect">
+    <area target="" alt="G03" title="G03" href="" coords="226,512,312,596" shape="rect">
+    <area target="" alt="G04" title="G04" href="" coords="314,512,403,598" shape="rect">
+    <area target="" alt="G05" title="G05" href="" coords="401,510,488,599" shape="rect">
+    <area target="" alt="G06" title="G06" href="" coords="488,510,578,598" shape="rect">
+    <area target="" alt="G07" title="G07" href="" coords="580,513,661,599" shape="rect">
+    <area target="" alt="G08" title="G08" href="" coords="660,513,752,601" shape="rect">
+    <area target="" alt="G09" title="G09" href="" coords="751,510,838,598" shape="rect">
+    <area target="" alt="G10" title="G10" href="" coords="838,510,926,598" shape="rect">
+    <area target="" alt="G11" title="G11" href="" coords="926,510,1016,598" shape="rect">
+    <area target="" alt="G12" title="G12" href="" coords="1015,510,1104,598" shape="rect">
+    <area target="" alt="G13" title="G13" href="" coords="1104,512,1192,598" shape="rect">
+    <area target="" alt="H03" title="H03" href="" coords="228,424,314,513" shape="rect">
+    <area target="" alt="H04" title="H04" href="" coords="314,423,403,510" shape="rect">
+    <area target="" alt="H05" title="H05" href="" coords="403,424,488,510" shape="rect">
+    <area target="" alt="H06" title="H06" href="" coords="488,424,577,509" shape="rect">
+    <area target="" alt="H07" title="H07" href="" coords="577,423,664,512" shape="rect">
+    <area target="" alt="H08" title="H08" href="" coords="664,423,752,512" shape="rect">
+    <area target="" alt="H09" title="H09" href="" coords="751,421,840,509" shape="rect">
+    <area target="" alt="H10" title="H10" href="" coords="840,423,924,509" shape="rect">
+    <area target="" alt="H11" title="H11" href="" coords="924,424,1015,509" shape="rect">
+    <area target="" alt="H12" title="H12" href="" coords="1012,423,1104,510" shape="rect">
+    <area target="" alt="H13" title="H13" href="" coords="1102,421,1190,510" shape="rect">
+    <area target="" alt="H14" title="H14" href="" coords="1190,421,1278,510" shape="rect">
+    <area target="" alt="H15" title="H15" href="" coords="1276,421,1370,510" shape="rect">
+    <area target="" alt="H16" title="H16" href="" coords="1370,421,1456,512" shape="rect">
+    <area target="" alt="I02" title="I02" href="" coords="143,338,226,424" shape="rect">
+    <area target="" alt="I03" title="I03" href="" coords="225,336,314,423" shape="rect">
+    <area target="" alt="I04" title="I04" href="" coords="312,335,400,421" shape="rect">
+    <area target="" alt="I05" title="I05" href="" coords="401,335,489,423" shape="rect">
+    <area target="" alt="I06" title="I06" href="" coords="489,338,575,423" shape="rect">
+    <area target="" alt="I07" title="I07" href="" coords="577,338,663,421" shape="rect">
+    <area target="" alt="I08" title="I08" href="" coords="663,336,749,421" shape="rect">
+    <area target="" alt="I09" title="I09" href="" coords="751,338,838,420" shape="rect">
+    <area target="" alt="I10" title="I10" href="" coords="840,334,924,421" shape="rect">
+    <area target="" alt="I11" title="I11" href="" coords="924,336,1015,423" shape="rect">
+    <area target="" alt="I12" title="I12" href="" coords="1013,335,1101,421" shape="rect">
+    <area target="" alt="I13" title="I13" href="" coords="1102,336,1190,420" shape="rect">
+    <area target="" alt="I14" title="I14" href="" coords="1190,335,1278,420" shape="rect">
+    <area target="" alt="I15" title="I15" href="" coords="1275,335,1370,421" shape="rect">
+    <area target="" alt="I16" title="I16" href="" coords="1368,335,1454,420" shape="rect">
+    <area target="" alt="J01" title="J01" href="" coords="54,249,141,336" shape="rect">
+    <area target="" alt="J02" title="J02" href="" coords="141,250,226,336" shape="rect">
+    <area target="" alt="J03" title="J03" href="" coords="226,249,312,335" shape="rect">
+    <area target="" alt="J04" title="J04" href="" coords="314,249,400,336" shape="rect">
+    <area target="" alt="J05" title="J05" href="" coords="400,247,488,334" shape="rect">
+    <area target="" alt="J06" title="J06" href="" coords="488,247,577,336" shape="rect">
+    <area target="" alt="J07" title="J07" href="" coords="577,247,663,336" shape="rect">
+    <area target="" alt="J08" title="J08" href="" coords="663,247,749,335" shape="rect">
+    <area target="" alt="J09" title="J09" href="" coords="751,247,842,338" shape="rect">
+    <area target="" alt="J10" title="J10" href="" coords="841,247,924,335" shape="rect">
+    <area target="" alt="J11" title="J11" href="" coords="923,249,1012,335" shape="rect">
+    <area target="" alt="J12" title="J12" href="" coords="1013,247,1105,334" shape="rect">
+    <area target="" alt="J13" title="J13" href="" coords="1104,246,1192,336" shape="rect">
+    <area target="" alt="J14" title="J14" href="" coords="1193,247,1281,336" shape="rect">
+    <area target="" alt="J15" title="J15" href="" coords="1276,247,1367,335" shape="rect">
+    <area target="" alt="J16" title="J16" href="" coords="1367,249,1453,335" shape="rect">
+    <area target="" alt="K01" title="K01" href="" coords="143,161,55,247" shape="rect">
+    <area target="" alt="K02" title="K02" href="" coords="228,161,141,249" shape="rect">
+    <area target="" alt="K03" title="K03" href="" coords="315,160,229,247" shape="rect">
+    <area target="" alt="K04" title="K04" href="" coords="401,161,314,247" shape="rect">
+    <area target="" alt="K05" title="K05" href="" coords="489,161,400,246" shape="rect">
+    <area target="" alt="K06" title="K06" href="" coords="577,163,489,246" shape="rect">
+    <area target="" alt="K07" title="K07" href="" coords="663,161,577,247" shape="rect">
+    <area target="" alt="K08" title="K08" href="" coords="752,161,663,246" shape="rect">
+    <area target="" alt="K09" title="K09" href="" coords="837,161,751,246" shape="rect">
+    <area target="" alt="K10" title="K10" href="" coords="926,160,840,246" shape="rect">
+    <area target="" alt="K11" title="K11" href="" coords="1012,160,927,249" shape="rect">
+    <area target="" alt="K12" title="K12" href="" coords="1105,161,1011,247" shape="rect">
+    <area target="" alt="K13" title="K13" href="" coords="1193,163,1104,246" shape="rect">
+    <area target="" alt="K14" title="K14" href="" coords="1279,163,1192,246" shape="rect">
+    <area target="" alt="K15" title="K15" href="" coords="1364,161,1278,246" shape="rect">
+    <area target="" alt="K16" title="K16" href="" coords="1456,161,1363,247" shape="rect">
+</map>
