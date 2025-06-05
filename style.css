@@ -427,6 +427,126 @@
             background-color: black;
         }
         
+        .faction-relations {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.faction-relations table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.faction-relations th, 
+.faction-relations td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    min-width: 40px; /* Assure une largeur minimale pour les cellules */
+}
+
+.faction-relations th {
+    background-color: #2a2a2a00;
+    font-weight: bold;
+}
+
+.faction-relations td:first-child {
+    text-align: left;
+    font-weight: bold;
+    min-width: 200px; /* Largeur minimale pour la première colonne */
+}
+
+.faction-relations tr:hover {
+    background-color: #252525;
+}
+
+/* Carrés colorés pour les relations */
+.faction-relations td.ally {
+    background-color: #4CAF50; /* Vert */
+}
+
+.faction-relations td.neutral {
+    background-color: #FFC107; /* Jaune */
+}
+
+.faction-relations td.enemy {
+    background-color: #F44336; /* Rouge */
+}
+
+.faction-relations td.same {
+    background-color: #FFFFFF; /* Blanc */
+}
+
+/* Légende */
+.legend {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.square {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.square.ally {
+    background-color: #4CAF50;
+}
+
+.square.neutral {
+    background-color: #FFC107;
+}
+
+.square.enemy {
+    background-color: #F44336;
+}
+
+.square.same {
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .faction-relations {
+        padding: 10px;
+    }
+    
+    .faction-relations th, 
+    .faction-relations td {
+        padding: 5px;
+        font-size: 14px;
+        min-width: 30px; /* Largeur minimale réduite pour mobile */
+    }
+
+    .faction-relations td:first-child {
+        min-width: 150px; /* Largeur minimale réduite pour mobile */
+    }
+
+    .legend {
+        flex-wrap: wrap;
+    }
+
+    .square {
+        width: 15px;
+        height: 15px;
+    }
+}
+        
         .faction-item {
             display: flex;
             margin-bottom: 2rem;

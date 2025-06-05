@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../../assets/Neocron_fr.png">
-    <title>Plaza Network - Carte Interactive</title>
+    <title>Plaza Network - Interactive Map</title>
     <link rel="stylesheet" href="../style.css">
-    <script src="map.js"></script> 
+    <script src="../map.js"></script>
 </head>
 <body>
     <header>
@@ -15,13 +15,14 @@
                 <div class="logo"><a href="../index.html">Plaza Network</a></div>
                 <nav>
                     <ul>
-                        <li><a href="../index.html">Accueil</a></li>
-                        <li><a href="factions_fr.html">Factions</a></li>
-                        <li><a href="classes_fr.html">Classes</a></li>
-                        <li><a href="zones_fr.html">Zones</a></li>
-                        <li><a href="items_fr.html">Équipement</a></li>
-                        <li><a href="guides_fr.html">Guides</a></li>
-                        <li><a href="about_fr.html">À propos</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="factions_en.html">Factions</a></li>
+                        <li><a href="classes_en.html">Classes</a></li>
+                        <li><a href="zones_en.html">Maps</a></li>
+                        <li><a href="items_en.html">Equipements</a></li>
+                        <li><a href="guides_en.html">Guides</a></li>
+                        <li><a href="about_en.html">About</a></li>
+                        <li><a href="/fr/map_fr.html">FR 🇫🇷</a></li>
                     </ul>
                 </nav>
             </div>
@@ -29,30 +30,30 @@
     </header>
 
     <div class="breadcrumb container">
-        <span><a href="../index.html">Accueil</a></span>
-        <span><a href="zones_fr.html">Zones</a></span>
-        <span>Carte Interactive</span>
+        <span><a href="../index.html">Home</a></span>
+        <span><a href="zones_fr.html">Zone</a></span>
+        <span>Interactive Map</span>
     </div>
 
     <main class="container">
         <section class="section">
-            <h2 class="section-title">Carte Interactive de Neocron</h2>
-            
+            <h2 class="section-title">Neocron Interactive Map</h2>
+
             <div class="map-selector">
                 <button class="map-button active" data-map="caliga">Neocron</button>
                 <button class="map-button" data-map="wastelands">Wastelands</button>
             </div>
-            
+
             <div class="map-container" id="caliga-map">
                 <img src="../assets/Neocron_map.jpg" class="map-image" alt="Carte de Caliga">
                 <!-- Les zones seront générées par JavaScript -->
             </div>
-            
+
             <div class="map-container" id="wastelands-map" style="display: none;">
                 <img src="../assets/terrain_1600.bmp" class="map-image" alt="Carte des Wastelands">
                 <!-- Les zones seront générées par JavaScript -->
             </div>
-            
+
             <div class="map-info" id="zone-info">
                 <span class="close-btn" id="close-info">&times;</span>
                 <h3 class="zone-title">Sélectionnez une zone</h3>
@@ -60,10 +61,12 @@
             </div>
         </section>
     </main>
-    
+
     <footer>
         <div class="container">
-            <p>&copy; 2025 Plaza Network - Le guide non-officiel de Neocron</p>
+            <p>Plaza Network - Unofficial database on Neocron</p>
+            <p>Created by a gamer for gamers.</p>
+            <p>Neocron is a registered trademark of its respective owners.</p>
         </div>
     </footer>
 
