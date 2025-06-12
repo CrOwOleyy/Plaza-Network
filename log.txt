@@ -1,0 +1,1029 @@
+[AWarn3] Loading SQL Module
+[AWarn3] Loading ConCommands Module
+[AWarn3] Loading Chat Commands Module
+Particles: Missing 'particles/grub_blood.pcf'
+Particles: Missing 'particles/antlion_gib_02.pcf'
+Particles: Missing 'particles/antlion_worker.pcf'
+Initializing Darkrp Bodygroups Manager
+Loading Arizard's bodyGroupr
+Weapon Strip con var created
+Penetration/ricochet con var created
+Recoil con var created
+Ammo crate detonation con var created
+Damage Multiplier con var created
+Default Clip con var created
+Unique Slots con var created
+[Photon][sv][Warning] Component Whelen 600 Mounted is deprecated and may be removed in a future version.
+[Photon][sv][Warning] This component is replaced with the 'Whelen 400 Mounted' for ELS and the 'Whelen 400 Mounted Illumination'
+[Photon][sv][Warning] Component Whelen Ion Interior Split is deprecated and may be removed in a future version.
+[Photon][sv][Warning] Use the 'Whelen Ion Split' with phase 'Interior'
+Particles: Missing 'particles/impact_fx_fas.pcf'
+Particles: Missing 'particles/striderbuster.pcf'
+
+[GmodAdminSuite] AddCSLuaFile: Couldn't find 'gmodadminsuite_lua_functions.lua'
+  1. unknown - lua/autorun/gmodadminsuite.lua:29
+
+[GmodAdminSuite] AddCSLuaFile: Couldn't find 'gmodadminsuite_config.lua'
+  1. unknown - lua/autorun/gmodadminsuite.lua:30
+[GmodAdminSuite] [================================   GmodAdminSuite   =================================]
+[GmodAdminSuite] [ Version: v1                                                                         ]
+[GmodAdminSuite] [                                                                                     ]
+[GmodAdminSuite] [ [INFO] Loading configs...                                                           ]
+[FATAL] Looks like the GmodAdminSuite Config Addon has not been installed to your server: https://gmodsto.re/gmodadminsuite-config-addon
+You need to install this addon in order to use & configure GmodAdminSuite.
+[Lua Patcher Server] Some code attempted to call CreateConVar with "0" min argument.
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "LogError"              lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 357     "CreateConVar"          lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        4: Line 11      "nil"           addons/guthlevelsystem-2.0.0/lua/autorun/guthlevelsystem.lua
+
+[Lua Patcher Server] Some code attempted to call CreateConVar with "1" max argument.
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "LogError"              lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 361     "CreateConVar"          lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        4: Line 11      "nil"           addons/guthlevelsystem-2.0.0/lua/autorun/guthlevelsystem.lua
+
+[ Info ] guthlevelsystem: "guthlevelsystem/sh_config.lua" loaded & sent to clients
+[ Info ] guthlevelsystem: "guthlevelsystem/sh_commands.lua" loaded & sent to clients
+[ Info ] guthlevelsystem: "guthlevelsystem/sh_players.lua" loaded & sent to clients
+[ Info ] guthlevelsystem: "guthlevelsystem/sv_data.lua" loaded
+[ Info ] guthlevelsystem: "guthlevelsystem/sv_players.lua" loaded
+[ Info ] guthlevelsystem: "guthlevelsystem/sv_hooks.lua" loaded
+[ Info ] guthlevelsystem: "guthlevelsystem/cl_hud.lua" sent to clients
+[ Info ] guthlevelsystem: "guthlevelsystem/hud/default_progress.lua" sent to clients
+[ Info ] guthlevelsystem: "guthlevelsystem/hud/default_text.lua" sent to clients
+[ Info ] guthlevelsystem: database connection successfully established
+[ Info ] guthlevelsystem: database is up-to-date, no migrations to run
+[ Info ] guthlevelsystem: v2.0.0 loaded; type 'guthlevelsystem_about' for more informations on this addon.
+[2025-06-12 17:31:01][Image Stickers] Loaded!
+Explosive Nerve Gas con var created
+Davy Crockett timer created
+
+     _____             _____               _         _             
+    |     |___ ___ ___|  _  |___ ___ _____|_|___ ___|_|___ ___ ___ 
+    |  |  | . | -_|   |   __| -_|  _|     | |_ -|_ -| | . |   |_ -|
+    |_____|  _|___|_|_|__|  |___|_| |_|_|_|_|___|___|_|___|_|_|___|
+          |_|                                                      
+  [=================================================================]
+  [                          Version: v1.0                          ]
+  [      https://github.com/WilliamVenner/GLua-OpenPermissions      ]
+  [=================================================================]
+https://gmodsto.re/openpermissions-config-addon
+You need to install this addon in order to use & configure OpenPermissions.
+Loading PerfectCasino
+Loading folder: derma
+        Loading file:   cl_fonts.lua
+        Loading file:   cl_elements.lua
+        Loading file:   cl_config.lua
+Loading folder: core
+        Loading file:   sh_core.lua
+        Loading file:   sh_cooldown.lua
+        Loading file:   sh_config.lua
+        Loading file:   sh_chip.lua
+        Loading file:   sh_card.lua
+        Loading file:   sv_sound.lua
+        Loading file:   sv_netmsg.lua
+        Loading file:   sv_db.lua
+        Loading file:   sv_core.lua
+        Loading file:   sv_config.lua
+        Loading file:   cl_core.lua
+Loading folder: config
+        Loading file:   sh_language.lua
+        Loading file:   sh_config.lua
+Loaded PerfectCasino
+Loading perfectVault
+Loading folder: derma
+        Loading file:   cl_menu.lua
+        Loading file:   cl_fonts.lua
+        Loading file:   cl_config.lua
+Loading folder: core
+        Loading file:   sh_mask.lua
+        Loading file:   sh_core.lua
+        Loading file:   cl_core.lua
+Loading folder: config
+        Loading file:   sh_language.lua
+        Loading file:   sh_config.lua
+Loaded perfectVault
+
+###########################################################
+              _     _                     
+             | |   | |                    
+             | |__ | |     ___   __ _ ___ 
+             | '_ \| |    / _ \ / _` / __|
+             | |_) | |___| (_) | (_| \__ \
+             |_.__/|______\___/ \__, |___/
+                                 __/ |    
+                                |___/     
+                                
+
+                BillysLogs-Revamped-2-5
+                  Licensed to fundulx
+###########################################################
+[BOTCHED SQLLite] botched_players table validated!
+[BOTCHED SQLLite] botched_locker table validated!
+[BOTCHED FRAMEWORK] Server file loaded: sv_admin.lua
+[BOTCHED FRAMEWORK] Server file loaded: sv_entity_saving.lua
+[BOTCHED FRAMEWORK] Server file loaded: sv_locker.lua
+[BOTCHED FRAMEWORK] Server file loaded: sv_player.lua
+
+[slib] Loading
+SlownLS ATM loaded!
+KoZ's Food Mod has been initialized.
+[TDMCars - Base Pack] HTTP failed - ISteamHTTP isn't available!
+  1. Fetch - lua/includes/modules/http.lua:42
+   2. tr - lua/autorun/tdmcars_vehicles_init_initial.lua:34
+    3. unknown - lua/autorun/tdmcars_vehicles_init_initial.lua:39
+///////////////////////////////
+//      Ulysses Library      //
+///////////////////////////////
+// Loading...                //
+//  shared/defines.lua       //
+//  shared/misc.lua          //
+//  shared/util.lua          //
+//  shared/hook.lua          //
+//  shared/table.lua         //
+//  shared/player.lua        //
+//  server/player.lua        //
+//  shared/messages.lua      //
+//  shared/commands.lua      //
+//  server/concommand.lua    //
+//  server/util.lua          //
+//  shared/sh_ucl.lua        //
+//  server/ucl.lua           //
+//  server/phys.lua          //
+//  server/player_ext.lua    //
+//  server/entity_ext.lua    //
+//  shared/plugin.lua        //
+//  shared/cami_global.lua   //
+//  shared/cami_ulib.lua     //
+// Load Complete!            //
+///////////////////////////////
+[ULIB] Loading SHARED module: ulx_init.lua
+///////////////////////////////
+//       ULX Admin Mod       //
+///////////////////////////////
+// Loading...                //
+//  sh_defines.lua           //
+//  lib.lua                  //
+//  base.lua                 //
+//  sh_base.lua              //
+//  log.lua                  //
+//  MODULE: slots.lua        //
+//  MODULE: urs_server.lua   //
+//  MODULE: uteam.lua        //
+//  MODULE: votemap.lua      //
+//  MODULE: xgui_server.lua  //
+///////////////////////////////
+// ULX GUI -- by Stickly Man //
+///////////////////////////////
+// Adding Main Modules..     //
+//  bans.lua                 //
+//  commands.lua             //
+//  groups.lua               //
+//  maps.lua                 //
+//  settings.lua             //
+// Adding Setting Modules..  //
+//  cl_urs_gui.lua           //
+//  client.lua               //
+//  server.lua               //
+// Adding Gamemode Modules.. //
+//  sandbox.lua              //
+// Loading Server Modules..  //
+//  sv_bans.lua              //
+//  sv_groups.lua            //
+//  sv_maps.lua              //
+//  sv_sandbox.lua           //
+//  sv_settings.lua          //
+//  sv_urs_gui.lua           //
+// XGUI modules added!       //
+///////////////////////////////
+//  MODULE: blogs.lua        //
+//  MODULE: chat.lua         //
+//  MODULE: fun.lua          //
+//  MODULE: guthlevelsystem.lua//
+[ Info ] guthlevelsystem: ULX module loaded!
+//  MODULE: menus.lua        //
+//  MODULE: rcon.lua         //
+//  MODULE: teleport.lua     //
+//  MODULE: urs_cmds.lua     //
+//  MODULE: user.lua         //
+//  MODULE: userhelp.lua     //
+//  MODULE: util.lua         //
+//  MODULE: vote.lua         //
+//  end.lua                  //
+// Load Complete!            //
+///////////////////////////////
+[VoidLib]: [Logging] Injecting log system to VoidLib
+[VoidLib] [Generic] [INFO] [Logging] Successfully injected log system to VoidLib
+[VoidLib] [Logging] [INFO] Loaded previous persistent logs (322) from today (2025-06-12)
+
+[blogs] Couldn't include file '../../blogs/sh_config.lua' - File not found or is empty (@addons/blogs/lua/autorun/server/_blogs_load.lua (line 21))
+  1. unknown - addons/blogs/lua/autorun/server/_blogs_load.lua:21
+   2. pcall - [C]:-1
+    3. bLogsLoad - addons/blogs/lua/autorun/server/_blogs_load.lua:21
+     4. unknown - addons/blogs/lua/autorun/server/_blogs_load.lua:1304
+
+[bLogs] Running BillysLogs-Revamped-2-5
+
+[bLogs] Languages available:
+
+[bLogs] English
+[bLogs] Developer
+[bLogs] Danish
+[bLogs] Dutch
+[bLogs] French
+[bLogs] German
+[bLogs] Korean
+[bLogs] Portugese
+[bLogs] Spanish
+[bLogs] Swedish
+
+[bLogs] There are currently 5 files that will be loaded once a player spawns.
+[bLogs] Not running bLogs MySQL because it is disabled.
+
+-- Hit Numbers loaded --
+---------------------------------
+| Loading ServerSide PermaProps |
+---------------------------------
+permaprops/sv_lib.lua
+permaprops/sv_menu.lua
+permaprops/sv_permissions.lua
+permaprops/sv_specialfcn.lua
+permaprops/sv_sql.lua
+-----------------------------
+| Loading Shared PermaProps |
+-----------------------------
+---------------------------------
+| Loading ClientSide PermaProps |
+---------------------------------
+permaprops/cl_drawent.lua
+permaprops/cl_menu.lua
+-------------------------------
+Default clips will be not be modified
+Default clips will be not be modified
+
+[ERROR] AddCSLuaFile: Couldn't find 'weapons/cw_base/shared.lua'
+Flip!
+[Lua Patcher Server] Some code attempted to index "nil" with key "stub".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 6       "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to call "nil" as a function with 1 arguments.
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "stub"          lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 6       "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to index "nil" with key "stub".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 22      "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to call "nil" as a function with 1 arguments.
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "stub"          lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 22      "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to index "nil" with key "stub".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 38      "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to call "nil" as a function with 1 arguments.
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "stub"          lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 38      "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to index "nil" with key "hookStub".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 54      "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to call "nil" as a function with 1 arguments.
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "hookStub"              lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 54      "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to index "nil" with key "hookStub".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 83      "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to call "nil" as a function with 1 arguments.
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "hookStub"              lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 83      "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to index "nil" with key "hookStub".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 107     "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to call "nil" as a function with 1 arguments.
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "hookStub"              lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 107     "nil"           addons/darkrpmodification/lua/weapons/pocket/sv_init.lua
+        4: C function   "include"
+        5: Line 4       "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to index "nil" with key "stub".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 101     "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+[Lua Patcher Server] Some code attempted to call "nil" as a function with 1 arguments.
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "stub"          lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 101     "nil"           addons/darkrpmodification/lua/weapons/pocket/shared.lua
+
+██████████████████████
+█████  realrbn's █████
+█████   Tazer    █████
+██████████████████████
+Default clips will be not be modified
+Particles: Missing 'particles/hunter_flechette.pcf'
+Particles: Missing 'particles/hunter_projectile.pcf'
+ERROR: Trying to derive weapon weapon_ak47custom from non existant SWEP weapon_cs_base2!
+ERROR: Trying to derive weapon pocket from non existant SWEP weapon_cs_base2!
+Refusing to load lua_run because it is missing Type and Base keys!
+[ Info ] guthlevelsystem: 0 Team XP Multipliers loaded
+ 
+///////////////////////////////////////////////////
+////////////// Zeros Vendingmachines //////////////
+///////////////////////////////////////////////////
+// [ Initialize ]: zvm_config.lua                //
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvm_config.lua:128: table index is nil
+  1. unknown - addons/zeros_vendingmachines/lua/zvm_config.lua:128
+   2. include - [C]:-1
+    3. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+     4. PreLoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:16
+      5. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:58
+       6. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+        7. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: sh_zvm_language_cn.lua        //
+// [ Initialize ]: sh_zvm_language_de.lua        //
+// [ Initialize ]: sh_zvm_language_en.lua        //
+// [ Initialize ]: sh_zvm_language_fr.lua        //
+// [ Initialize ]: sh_zvm_language_pl.lua        //
+// [ Initialize ]: sh_zvm_language_ptbr.lua      //
+// [ Initialize ]: sh_zvm_language_ru.lua        //
+// [ Initialize ]: sh_zvm_language_tr.lua        //
+// [ Initialize ]: zvm_animation.lua             //
+// [ Initialize ]: zvm_debug.lua                 //
+// [ Initialize ]: zvm_enttable.lua              //
+// [ Initialize ]: zvm_materials.lua             //
+// [ Initialize ]: zvm_module.lua                //
+// [ Initialize ]: zvm_money.lua                 //
+// [ Initialize ]: zvm_precache.lua              //
+// [ Initialize ]: zvm_soundlibary.lua           //
+// [ Initialize ]: zvm_utility.lua               //
+// [ Initialize ]: zvm_vfx.lua                   //
+// [ Initialize ]: zvm_crate_sv.lua              //
+// [ Initialize ]: zvm_customweapons_sv.lua      //
+// [ Initialize ]: zvm_download_sv.lua           //
+// [ Initialize ]: zvm_easyskin_sv.lua           //
+// [ Initialize ]: zvm_gamemode_sv.lua           //
+// [ Initialize ]: zvm_hooks_sv.lua              //
+// [ Initialize ]: zvm_itemdata_sv.lua           //
+// [ Initialize ]: zvm_machine_sv.lua            //
+// [ Initialize ]: zvm_moneytypes_sv.lua         //
+// [ Initialize ]: zvm_player_sv.lua             //
+// [ Initialize ]: zvm_shaccessories_sv.lua      //
+// [ Initialize ]: zvm_3d2dvgui.lua              //
+// [ Initialize ]: zvm_fonts.lua                 //
+// [ Initialize ]: zvm_machine_cl.lua            //
+// [ Initialize ]: zvm_player_cl.lua             //
+// [ Initialize ]: zvm_textentry_vgui.lua        //
+//                                               //
+///////////////// Loading Modules /////////////////
+//                                               //
+// [ Initialize ]: Arctic_Slightly_Nicer_Armor_a //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/arctic_slightly_nicer_armor_and_medkits.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/arctic_slightly_nicer_armor_and_medkits.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: FAS_2_0_Alpha_SWEPs.lua       //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/fas_2_0_alpha_sweps.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/fas_2_0_alpha_sweps.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: Kevlar_Armor.lua              //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/kevlar_armor.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/kevlar_armor.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: TFA_Starwars_Galactic_Weapon_ //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/tfa_starwars_galactic_weapon_reworked_pack.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/tfa_starwars_galactic_weapon_reworked_pack.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: VCMod.lua                     //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/vcmod.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/vcmod.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: VJBase.lua                    //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/vjbase.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/vjbase.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: [ TFA Star Wars ]_Krennic_DT_ //
+
+[zeros_vendingmachines] Refusing to AddCSLuaFile 'zvm_modules/[ tfa star wars ]_krennic_dt_29_blaster_pistol.lua' because its name contains dodgy symbols
+  1. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:31
+   2. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+    3. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+     4. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+      5. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/[ tfa star wars ]_krennic_dt_29_blaster_pistol.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/[ tfa star wars ]_krennic_dt_29_blaster_pistol.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: [TFA]_StarWars_DT_12.lua      //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/[tfa]_starwars_dt_12.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/[tfa]_starwars_dt_12.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: [TFA]_StarWars_First_Order_We //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/[tfa]_starwars_first_order_weapon_reworked_pack.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/[tfa]_starwars_first_order_weapon_reworked_pack.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: [TFA]_StarWars_Rebels_Weapon_ //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/[tfa]_starwars_rebels_weapon_reworked_pack.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/[tfa]_starwars_rebels_weapon_reworked_pack.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: [TFA]_StarWars_Resistance_Wea //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/[tfa]_starwars_resistance_weapon_reworked_pack.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/[tfa]_starwars_resistance_weapon_reworked_pack.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: zeros_crackermaker.lua        //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 4       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/zeros_crackermaker.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/zeros_crackermaker.lua:4
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: zeros_genlab.lua              //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 4       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/zeros_genlab.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/zeros_genlab.lua:4
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: zeros_growop.lua              //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/zeros_growop.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/zeros_growop.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: zeros_methlab.lua             //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/zeros_methlab.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/zeros_methlab.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: zeros_pizzamaker.lua          //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/zeros_pizzamaker.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/zeros_pizzamaker.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: zeros_pyrocrafter.lua         //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 4       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/zeros_pyrocrafter.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/zeros_pyrocrafter.lua:4
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+// [ Initialize ]: zeros_yeastbeast.lua          //
+[Lua Patcher Server] Some code attempted to index "nil" with key "AllowedItems".
+
+Trace:
+        1: Line 32      "Trace"         lua/includes/extensions/debug.lua
+        2: Line 52      "__index"               lua/autorun/+piengineers_lua_patcher_rewrite.lua
+        3: Line 5       "AllowedItems_Add"              addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua
+        4: Line 5       "nil"           addons/zeros_vendingmachines/lua/zvm_modules/zeros_yeastbeast.lua
+        5: C function   "include"
+        6: Line 34      "LoadFile"              addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        7: Line 42      "LoadAllFiles"          addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        8: Line 71      "Initialize"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        9: Line 79      "fn"            addons/zeros_vendingmachines/lua/autorun/zvm_load.lua
+        10: Line 109    "nil"           addons/ulib-v2_63/lua/ulib/shared/hook.lua
+
+
+[zeros_vendingmachines] addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5: bad argument #1 to 'insert' (table expected, got nil)
+  1. insert - [C]:-1
+   2. AllowedItems_Add - addons/zeros_vendingmachines/lua/zvendingmachine/sh/zvm_module.lua:5
+    3. unknown - addons/zeros_vendingmachines/lua/zvm_modules/zeros_yeastbeast.lua:5
+     4. include - [C]:-1
+      5. LoadFile - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:34
+       6. LoadAllFiles - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:42
+        7. Initialize - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:71
+         8. fn - addons/zeros_vendingmachines/lua/autorun/zvm_load.lua:79
+          9. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+[Photon][sv][Warning] models/lonewolfie/intlightbarmedium.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/bullbar.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightholder_doublev3.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightholder_doublev3.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightholder_doublev3.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/arrow_mount.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightholder_doublev3.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightholder_doublev3.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/intlightbarmedium.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightbar.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/intlightbarmedium.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/intlightbarmedium.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/intlightbarmedium.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightholder_doublev3.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightholder_doublev3.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightbar.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/intlightbarmedium.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/whelenavenger_double.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/intlightbarmedium.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightholder_doublev3.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightbar.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/intlightbarmedium.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/arrowboardmed.mdl is missing!
+[Photon][sv][Warning] models/lonewolfie/lightholder_doublev3.mdl is missing!
+[RCD] Initialize RCD
+
+[ulib-v2_63] HTTP failed - ISteamHTTP isn't available!
+  1. Fetch - lua/includes/modules/http.lua:42
+   2. fn - addons/ulib-v2_63/lua/ulib/shared/plugin.lua:186
+    3. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+[GmodAdminSuite] Gamemode initialized
+Couldn't find TFA_CSGO_SKINS table. Probably the skins (old API) are not installed at all.
+Making workshop map available for client download
+Unknown command "sv_tags"
+Executing dedicated server config file server.cfg
+Using map cycle file cfg/mapcycle.txt.
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+Attempted to create unknown entity type info_ladder!
+[SH_REPORTS DB] Defaulting to sqlite
+[SH_REPORTS DB] Using performance report #2. It will last until 2025/06/16 00:00.
+
+[[DarkRP] Bank Robbery System] HTTP failed - ISteamHTTP isn't available!
+  1. Fetch - lua/includes/modules/http.lua:42
+   2. fn - lua/entities/bank_vault/init.lua:187
+    3. unknown - addons/ulib-v2_63/lua/ulib/shared/hook.lua:109
+[BankRS] Failed to check for updates! (HTTP failed)
+[BankRS] No Save Data for rp_prison_v9 found.
+[Zeros Vendingmachine] No map data found for Vendingmachine entities. Please place some and do !savezvm to create the data.
+[BOTCHED FRAMEWORK] 0 Entitie(s) Spawned
+[GmodAdminSuite] InitPostEntity
+Failed to load .nav file: Cannot access!
+Initializing Steam libraries for secure Internet server
+[S_API] SteamAPI_Init(): Loaded local 'steamclient.so' OK.
+CAppInfoCacheReadFromDiskThread took 1 milliseconds to initialize
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561197960265728 [API loaded no]
+Logging into Steam game server account
+'banned_ip.cfg' not present; not executing.
+[Lua Patcher Server] Waited 5.12 seconds. Hopefully all other addons have initialized by now.
+[Lua Patcher Server] Patching console commands...
+[Lua Patcher Server] Console commands patched!
+[Lua Patcher Server] Lua has been patched! Remember that if you are a Lua developer, please disable this addon or your users may get errors from your code!
+[Lua Patcher Server] Waited 5.12 seconds. Hopefully all other addons have initialized by now.
+[Lua Patcher Server] Patching console commands...
+[Lua Patcher Server] Console commands patched!
+[Lua Patcher Server] Lua has been patched! Remember that if you are a Lua developer, please disable this addon or your users may get errors from your code!
+[AWarn3] Successfully connected to the database!
+[AWarn3] Warning Table Exists
+[AWarn3] Player Table Exists
+[AWarn3] Console Player Exists
+Writing cfg/banned_user.cfg.
+
+[bodygroupr] Attempted request to known malicious code endpoint 'https://www.kvac.cz/_/drm.php?key=e68IimW8WBwFmQ9gDRjt'! Blocking!
+  1. Fetch - lua/includes/modules/http.lua:42
+   2. unknown - addons/bodygroupr/lua/autorun/bodyman_init.lua:41
+
+[ERROR] Attempted request to known malicious code endpoint 'https://gvac.cz/link/fuck.php?key=TsBHpeshlwXbuTTS2orq'! Blocking!
+  1. Fetch - lua/includes/modules/http.lua:42
+   2. unknown - filename:1
+Connection to Steam servers successful.
+   Public IP is 213.133.100.211.
+Assigned persistent gameserver Steam ID [G-1:14838013].
+container@pterodactyl~ Server marked as running...
+VAC secure mode is activated.
+[AWarn3] Registering Admin Mod Access Permissions
+[ Info ] guthlevelsystem: checking for updates..
+[ Warning ] guthlevelsystem: this version is out-of-date, v2.3.4 is available on Github
+ServerLog: AWarn: Your server info has been updated to the online statistics tracking
+[3D2D Textscreens] Spawning textscreens...
+[3D2D Textscreens] Spawned 0 textscreens for map rp_prison_v9
