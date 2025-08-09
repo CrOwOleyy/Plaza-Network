@@ -408,9 +408,36 @@
                     "Pêche en eaux contaminées"
                 ]
             },
-            // Grid Coordinates - Key strategic points
+            // Additional strategic locations
             {
                 id: "W11",
+                title: "Point Red",
+                coords: "619,1000,13",
+                shape: "circle",
+                description: "Poste d'observation stratégique avec vue panoramique sur les Wastelands. Point de contrôle essentiel pour la surveillance.",
+                activities: [
+                    "Surveillance et reconnaissance",
+                    "Communications longue distance",
+                    "Point de rassemblement tactique",
+                    "Observation météorologique"
+                ]
+            },
+            {
+                id: "W12",
+                title: "Krupp Factory",
+                coords: "798,897,17",
+                shape: "circle",
+                description: "Ancienne usine de production industrielle, partiellement remise en service pour la fabrication d'équipements.",
+                activities: [
+                    "Production d'équipements de base",
+                    "Réparation de véhicules",
+                    "Recyclage de matériaux",
+                    "Formation technique"
+                ]
+            },
+            // Grid Coordinates - Key strategic points
+            {
+                id: "W13",
                 title: "Secteur A06",
                 coords: "490,1037,575,1131",
                 shape: "rect",
@@ -423,7 +450,7 @@
                 ]
             },
             {
-                id: "W12",
+                id: "W14",
                 title: "Secteur A07", 
                 coords: "576,1037,666,1129",
                 shape: "rect",
@@ -617,6 +644,9 @@
     // Ajuster les positions lors du chargement et du redimensionnement
     window.addEventListener('load', adjustAreaPositions);
     window.addEventListener('resize', adjustAreaPositions);
+    
+    // Ajuster les positions immédiatement après la création des zones
+    adjustAreaPositions();
     
     // Afficher la carte de Caliga par défaut
     switchMap('caliga');
