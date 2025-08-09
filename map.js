@@ -235,52 +235,204 @@
         ];
 
         const wastelandsZones = [
+            // Military Base - Rectangle and Circle
             {
-                id: "NC",
-                title: "Neocron",
-                coords: "592,1139,584,1136,585,1116,596,1103,636,1102,660,1120,711,1124,714,1112,697,1093,694,1075,700,1068,724,1068,751,1096,779,1096,783,1120,806,1147,577,1151",
-                description: "Vaste région aride et balayée par des vents radioactifs. Des caravanes de nomades y circulent entre les rares points d'eau et abris.",
+                id: "W1",
+                title: "Military Base",
+                coords: "76,296,247,329",
+                shape: "rect",
+                description: "Une ancienne base militaire abandonnée depuis la guerre. Ses bunkers souterrains contiennent encore du matériel militaire de grande valeur, mais elle est gardée par des défenses automatisées.",
                 activities: [
-                    "Survie en environnement hostile",
-                    "Chasse aux créatures mutantes",
-                    "Exploration des bunkers abandonnés",
-                    "Escorte de caravanes"
+                    "Récupération d'équipement militaire avancé",
+                    "Missions de reconnaissance",
+                    "Affrontements avec les systèmes de défense",
+                    "Exploration des bunkers souterrains"
                 ]
             },
+            {
+                id: "W1_circle",
+                title: "Military Base (Zone d'influence)",
+                coords: "66,295,19",
+                shape: "circle",
+                description: "Zone d'influence et périmètre de sécurité de la base militaire.",
+                activities: [
+                    "Patrouilles de reconnaissance",
+                    "Surveillance des accès",
+                    "Zone de conflit fréquent"
+                ]
+            },
+            // Tech Center
             {
                 id: "W2",
-                title: "Ruines de l'Ancienne Mégapole",
-                coords: "490,1037,575,1131",
-                description: "Les vestiges d'une immense ville d'avant-guerre. Ces ruines urbaines sont désormais le territoire de bandes organisées et de créatures mutantes.",
+                title: "Tech",
+                coords: "611,671,752,699",
+                shape: "rect",
+                description: "Centre technologique avancé abritant des laboratoires de recherche et des installations de développement. C'est un lieu crucial pour obtenir des technologies de pointe.",
                 activities: [
-                    "Récupération de technologies anciennes",
-                    "Affrontements avec des gangs rivaux",
-                    "Exploration urbaine dangereuse",
-                    "Recherche de bunkers cachés"
+                    "Recherche et développement technologique",
+                    "Acquisition de blueprints rares",
+                    "Missions scientifiques",
+                    "Commerce d'équipements high-tech"
                 ]
             },
+            {
+                id: "W2_circle",
+                title: "Tech (Zone de recherche)",
+                coords: "608,628,19",
+                shape: "circle",
+                description: "Zone de recherche active et périmètre technologique sécurisé.",
+                activities: [
+                    "Expérimentations avancées",
+                    "Tests d'équipements",
+                    "Surveillance électronique"
+                ]
+            },
+            // Canyon
             {
                 id: "W3",
-                title: "Zone de Cratères",
-                coords: "300,500,700,700",
-                description: "Région ravagée par d'intenses bombardements lors de la grande guerre. Les cratères sont maintenant des lacs toxiques et des gouffres sans fond.",
+                title: "Canyon",
+                coords: "1143,731,1384,761",
+                shape: "rect",
+                description: "Formation géologique spectaculaire créée par d'anciens bombardements. Le canyon offre des passages stratégiques mais cache également de nombreux dangers.",
                 activities: [
-                    "Extraction de minéraux rares",
-                    "Étude des anomalies radioactives",
-                    "Chasse aux créatures abyssales",
-                    "Récupération d'équipements militaires"
+                    "Exploration géologique",
+                    "Passage tactique vers d'autres zones",
+                    "Chasse aux créatures des cavernes",
+                    "Récupération de minerais rares"
                 ]
             },
             {
-                id: "W4",
-                title: "Forêt Pétrifiée",
-                coords: "100,300,300,700",
-                description: "Ancienne zone boisée transformée par les radiations. Les arbres pétrifiés abritent désormais des formes de vie mutantes et des phénomènes inexpliqués.",
+                id: "W3_circle",
+                title: "Canyon (Point d'observation)",
+                coords: "1167,717,16",
+                shape: "circle",
+                description: "Point d'observation stratégique sur le canyon.",
                 activities: [
-                    "Collecte de spécimens biologiques",
-                    "Cartographie des zones inexploitées",
-                    "Études des phénomènes paranormaux",
-                    "Recherche de technologies pré-apocalyptiques"
+                    "Surveillance des mouvements",
+                    "Reconnaissance tactique",
+                    "Point de sniper"
+                ]
+            },
+            // Neocron - Complex polygon
+            {
+                id: "W4",
+                title: "Neocron",
+                coords: "592,1139,584,1136,585,1116,596,1103,636,1102,660,1120,711,1124,714,1112,697,1093,694,1075,700,1068,724,1068,751,1096,779,1096,783,1120,806,1147,577,1151",
+                shape: "poly",
+                description: "La mégalopole principale, centre de la civilisation post-apocalyptique. Ses tours imposantes dominent le paysage et ses secteurs abritent différentes factions.",
+                activities: [
+                    "Commerce inter-factions",
+                    "Missions urbaines complexes",
+                    "Exploration des secteurs",
+                    "Centre névralgique des communications"
+                ]
+            },
+            // York - Complex polygon
+            {
+                id: "W5",
+                title: "York",
+                coords: "896,82,893,134,918,157,959,158,973,171,989,175,989,155,1044,155,1067,131,1106,131,1106,155,1123,169,1135,171,1137,189,1173,155,1211,153,1228,168,1239,168,1242,191,1251,201,1258,195,1256,182,1267,169,1287,171,1301,157,1393,157,1416,178,1423,160,1455,127,1457,85",
+                shape: "poly",
+                description: "Ancienne métropole partiellement détruite, York conserve une architecture impressionnante malgré les ravages de la guerre. Ses ruines abritent de nombreux secrets.",
+                activities: [
+                    "Exploration urbaine avancée",
+                    "Récupération d'artefacts historiques",
+                    "Missions archéologiques",
+                    "Affrontements dans les ruines"
+                ]
+            },
+            // Techhaven
+            {
+                id: "W6",
+                title: "Techhaven",
+                coords: "625,743,21",
+                shape: "circle",
+                description: "Forteresse technologique contrôlée par les Fallen Angels. Centre de production et de recherche technologique avancée.",
+                activities: [
+                    "Commerce technologique spécialisé",
+                    "Missions pour les Fallen Angels",
+                    "Recherche en cybernétique",
+                    "Formation technique avancée"
+                ]
+            },
+            // Key Villages and Outposts
+            {
+                id: "W7",
+                title: "Tawkeen Village",
+                coords: "553,902,13",
+                shape: "circle",
+                description: "Village de survivants organisé autour d'un puits d'eau pure. Point de repos essentiel dans les Wastelands.",
+                activities: [
+                    "Ravitaillement en eau et nourriture",
+                    "Commerce avec les nomades",
+                    "Refuge pour les voyageurs",
+                    "Informations sur les routes sûres"
+                ]
+            },
+            {
+                id: "W8",
+                title: "Crest Village",
+                coords: "690,912,13",
+                shape: "circle",
+                description: "Communauté fortifiée spécialisée dans l'agriculture en milieu hostile.",
+                activities: [
+                    "Commerce agricole",
+                    "Technologies d'agriculture adaptées",
+                    "Protection contre les mutants",
+                    "Centre de coordination régional"
+                ]
+            },
+            {
+                id: "W9",
+                title: "Jeriko Fortress",
+                coords: "700,989,15",
+                shape: "circle",
+                description: "Forteresse défensive contrôlant les routes commerciales importantes des Wastelands.",
+                activities: [
+                    "Contrôle des routes commerciales",
+                    "Missions de sécurisation",
+                    "Commerce d'armes et d'équipements",
+                    "Renseignements stratégiques"
+                ]
+            },
+            {
+                id: "W10",
+                title: "Sherman Bay",
+                coords: "876,1017,11",
+                shape: "circle",
+                description: "Petit port sur une baie contaminée, point de passage vers d'autres régions éloignées.",
+                activities: [
+                    "Transport maritime",
+                    "Commerce international",
+                    "Missions d'exploration maritime",
+                    "Pêche en eaux contaminées"
+                ]
+            },
+            // Grid Coordinates - Key strategic points
+            {
+                id: "W11",
+                title: "Secteur A06",
+                coords: "490,1037,575,1131",
+                shape: "rect",
+                description: "Zone de quadrillage stratégique A06. Secteur de transition entre Neocron et les Wastelands extérieurs.",
+                activities: [
+                    "Reconnaissance et cartographie",
+                    "Missions de patrouille",
+                    "Point de contrôle stratégique",
+                    "Surveillance des mouvements"
+                ]
+            },
+            {
+                id: "W12",
+                title: "Secteur A07", 
+                coords: "576,1037,666,1129",
+                shape: "rect",
+                description: "Zone de quadrillage stratégique A07. Secteur résidentiel abandonné avec accès aux souterrains.",
+                activities: [
+                    "Exploration des ruines urbaines",
+                    "Accès aux réseaux souterrains",
+                    "Récupération de ressources",
+                    "Missions de nettoyage"
                 ]
             }
         ];
@@ -300,16 +452,47 @@
         
         // Créer les zones cliquables
         zones.forEach(zone => {
-            const [x1, y1, x2, y2] = zone.coords.split(',').map(Number);
-            
             const area = document.createElement('div');
             area.className = 'map-area';
             area.setAttribute('data-id', zone.id);
             area.setAttribute('data-title', zone.title);
-            area.style.left = Math.min(x1, x2) + 'px';
-            area.style.top = Math.min(y1, y2) + 'px';
-            area.style.width = Math.abs(x2 - x1) + 'px';
-            area.style.height = Math.abs(y2 - y1) + 'px';
+            
+            // Gérer différents types de formes
+            const shape = zone.shape || 'rect'; // Défaut à rectangle pour compatibilité
+            const coords = zone.coords.split(',').map(Number);
+            
+            if (shape === 'rect') {
+                // Rectangle: x1,y1,x2,y2
+                const [x1, y1, x2, y2] = coords;
+                area.style.left = Math.min(x1, x2) + 'px';
+                area.style.top = Math.min(y1, y2) + 'px';
+                area.style.width = Math.abs(x2 - x1) + 'px';
+                area.style.height = Math.abs(y2 - y1) + 'px';
+            } else if (shape === 'circle') {
+                // Cercle: x,y,radius
+                const [x, y, radius] = coords;
+                area.style.left = (x - radius) + 'px';
+                area.style.top = (y - radius) + 'px';
+                area.style.width = (radius * 2) + 'px';
+                area.style.height = (radius * 2) + 'px';
+                area.style.borderRadius = '50%';
+            } else if (shape === 'poly') {
+                // Polygone: utiliser les coordonnées pour créer une zone rectangulaire englobante
+                const xCoords = coords.filter((_, i) => i % 2 === 0);
+                const yCoords = coords.filter((_, i) => i % 2 === 1);
+                const minX = Math.min(...xCoords);
+                const maxX = Math.max(...xCoords);
+                const minY = Math.min(...yCoords);
+                const maxY = Math.max(...yCoords);
+                
+                area.style.left = minX + 'px';
+                area.style.top = minY + 'px';
+                area.style.width = (maxX - minX) + 'px';
+                area.style.height = (maxY - minY) + 'px';
+                
+                // Ajouter une classe pour les polygones si on veut un style différent
+                area.classList.add('polygon-area');
+            }
             
             // Ajouter les événements de survol et de clic
             area.addEventListener('click', function() {
@@ -401,7 +584,7 @@
     function adjustAreaPositions() {
         const maps = [
             { container: caligaMap, originalWidth: 1790, originalHeight: 2200 },
-            { container: wastelandsMap, originalWidth: 1620, originalHeight: 1200 }
+            { container: wastelandsMap, originalWidth: 1600, originalHeight: 1200 }
         ];
         
         maps.forEach(map => {
@@ -437,34 +620,4 @@
     
     // Afficher la carte de Caliga par défaut
     switchMap('caliga');
-});
-document.addEventListener('DOMContentLoaded', function() {
-    const closeButton = document.getElementById('close-info');
-    const zoneInfo = document.getElementById('zone-info');
-
-    // Fermer la boîte d'information au clic sur la croix
-    closeButton.addEventListener('click', function() {
-        zoneInfo.style.display = 'none';
-    });
-
-    // Réafficher la boîte quand une zone est cliquée
-    function displayZoneInfo(zone) {
-        zoneInfo.innerHTML = `
-            <span class="close-btn" id="close-info">&times;</span>
-            <h3 class="zone-title">${zone.title}</h3>
-            <p class="zone-description">${zone.description}</p>
-            <h4 class="activities-title">Lieux notables</h4>
-            <ul class="activities-list">
-                ${zone.activities.map(activity => `<li>${activity}</li>`).join('')}
-            </ul>
-        `;
-        
-        // Réattacher l'event listener après mise à jour du HTML
-        document.getElementById('close-info').addEventListener('click', function() {
-            zoneInfo.style.display = 'none';
-        });
-
-        // Afficher la boîte d'infos
-        zoneInfo.style.display = 'block';
-    }
 });
