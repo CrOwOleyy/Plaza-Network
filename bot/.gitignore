@@ -1,0 +1,110 @@
+# Variables d'environnement et configuration sensible
+.env
+.env.local
+.env.production
+config.json
+secrets/
+
+# Logs
+logs/
+*.log
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Database dumps
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# Media files (si utilisés)
+media/
+uploads/
+static/files/
+
+# Tests
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Documentation build
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Backup files
+*.bak
+*.backup
+
+# Configuration spécifique aux environnements
+config/local.py
+config/production.py

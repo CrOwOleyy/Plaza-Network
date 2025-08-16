@@ -1,0 +1,1 @@
+# COPBOT v4.0 - Configuration Package
