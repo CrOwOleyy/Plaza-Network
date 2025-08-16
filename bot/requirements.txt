@@ -1,0 +1,62 @@
+# COPBOT v4.0 Dependencies
+
+# Discord.py - Bibliothèque principale Discord
+discord.py>=2.3.0
+
+# Base de données
+asyncpg>=0.28.0
+
+# HTTP requests
+aiohttp>=3.8.0
+
+# Parsing de dates et heures
+python-dateutil>=2.8.0
+
+# JSON avec commentaires
+commentjson>=0.9.0
+
+# Variables d'environnement
+python-dotenv>=1.0.0
+
+# Validation de données
+pydantic>=2.0.0
+
+# Tâches cron
+aiocron>=1.8
+
+# Gestion des images (pour futures fonctionnalités IA)
+Pillow>=10.0.0
+
+# Expressions régulières avancées
+regex>=2023.0.0
+
+# Timezone handling
+pytz>=2023.0
+
+# Analyse de texte pour anti-spam
+textstat>=0.7.0
+
+# Parsing YAML
+PyYAML>=6.0
+
+# Cryptographie pour la sécurité
+cryptography>=41.0.0
+
+# Monitoring et métriques
+psutil>=5.9.0
+
+# Cache en mémoire
+cachetools>=5.3.0
+
+# Détection de langue
+langdetect>=1.0.9
+
+# Validation d'URLs
+validators>=0.20.0
+
+# Parsing HTML (pour intégrations)
+beautifulsoup4>=4.12.0
+
+# Gestion de fuseaux horaires
+zoneinfo>=0.2.1; python_version >= "3.9"
+backports.zoneinfo>=0.2.1; python_version < "3.9"
