@@ -58,6 +58,17 @@ Variables obligatoires :
 - `DATABASE_URL` : URL de connexion PostgreSQL
 
 ### 4. Lancement du bot
+
+**Option 1: Configuration automatique (recommandée)**
+```bash
+python setup.py --setup
+```
+Puis:
+```bash
+python setup.py --run
+```
+
+**Option 2: Lancement direct**
 ```bash
 python main.py
 ```
@@ -151,15 +162,19 @@ Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ### Version 4.0 (Actuelle)
 - ✅ Architecture modulaire avec cogs
-- ✅ Système de modération complet
-- ✅ Anti-spam et sécurité avancés
-- ✅ Base de données PostgreSQL
-- ✅ Logging complet
-- ✅ Configuration par serveur
-- 🔄 Système d'auto-rôles (en cours)
-- 🔄 Gestion d'événements (en cours)
-- 🔄 Rappels et sondages (en cours)
-- 🔄 Intégrations externes (en cours)
+- ✅ Système de modération complet (warn, mute, ban avec durées)
+- ✅ Anti-spam et sécurité avancés avec détection automatique
+- ✅ Base de données PostgreSQL avec schéma complet
+- ✅ Logging complet et gestion d'erreurs
+- ✅ Configuration par serveur personnalisable
+- ✅ Système d'auto-rôles avec réactions et menus
+- ✅ Gestion d'événements avec RSVP et rappels
+- ✅ Système de rappels personnels et collectifs avec récurrence
+- ✅ Sondages avancés avec choix multiples et résultats détaillés
+- ✅ Système de tickets de support complet avec transcripts
+- ✅ Interface utilisateur intuitive avec boutons et menus
+- ✅ Support complet en français
+- ✅ Script de configuration automatique
 
 ## Dépannage
 

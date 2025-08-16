@@ -48,10 +48,37 @@ class HelpCog(commands.Cog, name="Aide"):
                 "`/antispam` - Configurer l'anti-spam",
                 "`/motinterdits` - Gérer les mots interdits"
             ],
+            "🎭 Rôles": [
+                "`/autorole` - Rôle automatique nouveaux membres",
+                "`/reactionrole` - Rôles par réaction",
+                "`/rolemenu` - Menu de sélection de rôles",
+                "`/roleinfo` - Informations sur un rôle"
+            ],
+            "📅 Événements": [
+                "`/evenement` - Créer un événement",
+                "`/listevenements` - Liste des événements",
+                "`/infoevenement` - Détails d'un événement"
+            ],
+            "⏰ Rappels": [
+                "`/rappel` - Créer un rappel",
+                "`/rappels` - Vos rappels actifs",
+                "`/supprimerappel` - Supprimer un rappel"
+            ],
+            "📊 Sondages": [
+                "`/sondage` - Créer un sondage complet",
+                "`/sondagerapide` - Sondage Oui/Non rapide",
+                "`/listesondages` - Sondages actifs"
+            ],
+            "🎫 Tickets": [
+                "`/setuptickets` - Configurer le système",
+                "`/listetickets` - Tickets ouverts",
+                "`/fermerticket` - Fermer le ticket actuel"
+            ],
             "ℹ️ Informations": [
                 "`/info` - Informations sur le bot",
                 "`/serverinfo` - Informations sur le serveur",
-                "`/userinfo` - Informations sur un utilisateur"
+                "`/userinfo` - Informations sur un utilisateur",
+                "`/ping` - Test de latence"
             ]
         }
         
